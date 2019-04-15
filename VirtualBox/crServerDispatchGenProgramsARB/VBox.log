@@ -1,0 +1,1782 @@
+VirtualBox VM 5.2.10 r122406 win.amd64 (Apr 27 2018 10:39:07) release log
+00:00:04.368250 Log opened 2018-05-03T13:56:22.721024700Z
+00:00:04.368252 Build Type: release
+00:00:04.368260 OS Product: Windows 10
+00:00:04.368263 OS Release: 10.0.16299
+00:00:04.368264 OS Service Pack: 
+00:00:04.484295 DMI Product Name: 20HGA0GEVA
+00:00:04.496830 DMI Product Version: ThinkPad T470s
+00:00:04.496850 Host RAM: 8046MB (7.8GB) total, 2293MB (2.2GB) available
+00:00:04.496856 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:04.496858 Process ID: 4560
+00:00:04.496859 Package type: WINDOWS_64BITS_GENERIC
+00:00:04.498282 Installed Extension Packs:
+00:00:04.498350   Oracle VM VirtualBox Extension Pack (Version: 5.2.10 r122406; VRDE Module: VBoxVRDP)
+00:00:04.502562 Console: Machine state changed to 'Starting'
+00:00:04.514868 Qt version: 5.6.2
+00:00:04.519996 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:04.716928 SUP: Loaded VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:04.716954 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:04.716958 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:04.720221 Guest OS type: 'Windows7'
+00:00:04.726685 File system of 'C:\Users\BM\VirtualBox VMs\TEST\Snapshots' (snapshots) is ntfs
+00:00:04.726702 File system of 'C:\Users\BM\VirtualBox VMs\TEST\Snapshots/{d60f0114-a22f-4ef7-859a-a6eb4a00c517}.vdi' is ntfs
+00:00:04.727490 File system of 'C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso' (DVD) is ntfs
+00:00:04.731214 VideoRec: Only video will be recorded
+00:00:04.745623 Shared clipboard service loaded
+00:00:04.745633 Shared clipboard mode: Bidirectional
+00:00:04.757580 Drag and drop service loaded
+00:00:04.757615 Drag and drop mode: Bidirectional
+00:00:05.114199 crUtil DLL loaded.
+00:00:05.980919 OpenGL Info: Render SPU: GL_VENDOR:   Intel
+00:00:05.980937 OpenGL Info: Render SPU: GL_RENDERER: Intel(R) HD Graphics 620
+00:00:05.980943 OpenGL Info: Render SPU: GL_VERSION:  4.5.0 - Build 22.20.16.4749
+00:00:05.980947 OpenGL Info: Render SPU: GL_EXTENSIONS: GL_3DFX_texture_compression_FXT1 GL_AMD_depth_clamp_separate GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_cl_event GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compatibility GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_robustness_isolation GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_separate_stencil GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_polygon_offset_clamp GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_s3tc GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_IBM_texture_mirrored_repeat GL_INTEL_conservative_rasterization GL_INTEL_fragment_shader_ordering GL_INTEL_framebuffer_CMAA GL_INTEL_map_texture GL_INTEL_multi_rate_fragment_shader GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_ldr GL_NV_blend_square GL_NV_conditional_render GL_NV_primitive_restart GL_NV_texgen_reflection GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays GL_WIN_swap_hint
+00:00:05.981061 OpenGL Info: Host does not support OpenGL extension(s):
+00:00:05.981068 OpenGL Info:   GL_ARB_shadow_ambient
+00:00:05.981103 OpenGL Info:   GL_EXT_texture_env_dot3
+00:00:05.981121 OpenGL Info:   GL_ATI_texture_mirror_once
+00:00:05.981188 OpenGL Info:   GL_EXT_blend_logic_op
+00:00:05.981230 OpenGL Info:   GL_EXT_texture_cube_map
+00:00:05.981254 OpenGL Info:   GL_EXT_texture_object
+00:00:05.981268 OpenGL Info:   GL_IBM_rasterpos_clip
+00:00:05.981276 OpenGL Info:   GL_NV_fog_distance
+00:00:05.981285 OpenGL Info:   GL_NV_fragment_program
+00:00:05.981294 OpenGL Info:   GL_NV_fragment_program_option
+00:00:05.981302 OpenGL Info:   GL_NV_fragment_program2
+00:00:05.981311 OpenGL Info:   GL_NV_register_combiners
+00:00:05.981320 OpenGL Info:   GL_NV_register_combiners2
+00:00:05.981333 OpenGL Info:   GL_NV_texture_rectangle
+00:00:05.981425 OpenGL Info:   GL_NV_vertex_program
+00:00:05.981434 OpenGL Info:   GL_NV_vertex_program1_1
+00:00:05.981442 OpenGL Info:   GL_NV_vertex_program2
+00:00:05.981451 OpenGL Info:   GL_NV_vertex_program2_option
+00:00:05.981459 OpenGL Info:   GL_NV_vertex_program3
+00:00:05.981473 OpenGL Info:   GL_SGIS_texture_border_clamp
+00:00:05.981516 OpenGL Info:   GL_GREMEDY_string_marker
+00:00:05.981529 OpenGL Info:   GL_ARB_shader_texture_lod
+00:00:05.982617 OpenGL Info: Render SPU: GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB=4096
+00:00:05.982633 OpenGL Info: Host supports version 4.5 [4.5.0 - Build 22.20.16.4749]
+00:00:05.982636 OpenGL Info: Cfg: u32Caps(0x1f), fVisualBitsDefault(0x23)
+00:00:05.982732 Shared OpenGL service loaded -- 3D enabled
+00:00:06.008318 Guest Control service loaded
+00:00:06.029949 ************************* CFGM dump *************************
+00:00:06.029951 [/] (level 0)
+00:00:06.029953   CSAMEnabled       <integer> = 0x0000000000000001 (1)
+00:00:06.029955   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:06.029957   EnablePAE         <integer> = 0x0000000000000000 (0)
+00:00:06.029958   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:06.029959   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:06.029959   Name              <string>  = "TEST" (cb=5)
+00:00:06.029960   NumCPUs           <integer> = 0x0000000000000001 (1)
+00:00:06.029961   PATMEnabled       <integer> = 0x0000000000000001 (1)
+00:00:06.029962   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:06.029963   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:06.029965   RamSize           <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:06.029966   RawR0Enabled      <integer> = 0x0000000000000001 (1)
+00:00:06.029967   RawR3Enabled      <integer> = 0x0000000000000001 (1)
+00:00:06.029968   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:06.029969   UUID              <bytes>   = "d3 75 30 93 22 fb 67 45 b5 37 3c ce 36 14 a9 f3" (cb=16)
+00:00:06.029973 
+00:00:06.029974 [/CPUM/] (level 1)
+00:00:06.029975   GuestCpuName       <string>  = "host" (cb=5)
+00:00:06.029976   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:06.029977   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:06.029980 
+00:00:06.029980 [/DBGC/] (level 1)
+00:00:06.029982   GlobalInitScript <string>  = "C:\Users\BM\.VirtualBox/dbgc-init" (cb=34)
+00:00:06.029983   HistoryFile      <string>  = "C:\Users\BM\.VirtualBox/dbgc-history" (cb=37)
+00:00:06.029984   LocalInitScript  <string>  = "C:\Users\BM\VirtualBox VMs\TEST/dbgc-init" (cb=42)
+00:00:06.029985 
+00:00:06.029985 [/DBGF/] (level 1)
+00:00:06.029986   Path <string>  = "C:\Users\BM\VirtualBox VMs\TEST/debug/;C:\Users\BM\VirtualBox VMs\TEST/;C:\Users\BM\" (cb=85)
+00:00:06.029987 
+00:00:06.029987 [/Devices/] (level 1)
+00:00:06.029988 
+00:00:06.029988 [/Devices/8237A/] (level 2)
+00:00:06.029989 
+00:00:06.029989 [/Devices/8237A/0/] (level 3)
+00:00:06.029990   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.029991 
+00:00:06.029991 [/Devices/GIMDev/] (level 2)
+00:00:06.029992 
+00:00:06.029992 [/Devices/GIMDev/0/] (level 3)
+00:00:06.029993   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.029994 
+00:00:06.029994 [/Devices/VMMDev/] (level 2)
+00:00:06.029995 
+00:00:06.029995 [/Devices/VMMDev/0/] (level 3)
+00:00:06.029996   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.029997   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:06.029998   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.029999   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.029999 
+00:00:06.030000 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:06.030001   GuestCoreDumpDir <string>  = "C:\Users\BM\VirtualBox VMs\TEST\Snapshots" (cb=42)
+00:00:06.030002 
+00:00:06.030002 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:06.030003   Driver <string>  = "HGCM" (cb=5)
+00:00:06.030004 
+00:00:06.030004 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:06.030005   Object <integer> = 0x0000000006014650 (100 746 832)
+00:00:06.030006 
+00:00:06.030007 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:06.030008   Driver <string>  = "MainStatus" (cb=11)
+00:00:06.030008 
+00:00:06.030009 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:06.030010   First   <integer> = 0x0000000000000000 (0)
+00:00:06.030011   Last    <integer> = 0x0000000000000000 (0)
+00:00:06.030011   papLeds <integer> = 0x0000000003c15df0 (63 004 144)
+00:00:06.030013 
+00:00:06.030013 [/Devices/VirtualKD/] (level 2)
+00:00:06.030014 
+00:00:06.030014 [/Devices/VirtualKD/0/] (level 3)
+00:00:06.030015 
+00:00:06.030015 [/Devices/VirtualKD/0/Config/] (level 4)
+00:00:06.030016   Path <string>  = "C:\Users\BM\Desktop\VirtualKD-3.0" (cb=34)
+00:00:06.030017 
+00:00:06.030017 [/Devices/acpi/] (level 2)
+00:00:06.030018 
+00:00:06.030018 [/Devices/acpi/0/] (level 3)
+00:00:06.030019   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030020   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:06.030021   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030022   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.030022 
+00:00:06.030023 [/Devices/acpi/0/Config/] (level 4)
+00:00:06.030025   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:06.030026   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:06.030027   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:06.030028   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:06.030029   IOAPIC              <integer> = 0x0000000000000000 (0)
+00:00:06.030030   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:06.030031   NumCPUs             <integer> = 0x0000000000000001 (1)
+00:00:06.030032   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:06.030033   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:06.030034   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:06.030035   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:06.030036   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:06.030037   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:06.030038   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:06.030039   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:06.030040   ShowCpu             <integer> = 0x0000000000000000 (0)
+00:00:06.030041   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:06.030042   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:06.030043 
+00:00:06.030043 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:06.030045   Driver <string>  = "ACPIHost" (cb=9)
+00:00:06.030046 
+00:00:06.030046 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:06.030048 
+00:00:06.030048 [/Devices/ahci/] (level 2)
+00:00:06.030049 
+00:00:06.030049 [/Devices/ahci/0/] (level 3)
+00:00:06.030051   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030052   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:06.030053   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030053   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.030054 
+00:00:06.030055 [/Devices/ahci/0/Config/] (level 4)
+00:00:06.030056   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:06.030057   PortCount <integer> = 0x0000000000000002 (2)
+00:00:06.030058 
+00:00:06.030058 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:06.030059   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:06.030060 
+00:00:06.030060 [/Devices/ahci/0/Config/Port1/] (level 5)
+00:00:06.030062   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:06.030063 
+00:00:06.030063 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:06.030064   Driver <string>  = "VD" (cb=3)
+00:00:06.030065 
+00:00:06.030065 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:06.030067   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:06.030068   Format     <string>  = "VDI" (cb=4)
+00:00:06.030069   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:06.030070   Path       <string>  = "C:\Users\BM\VirtualBox VMs\TEST\Snapshots/{d60f0114-a22f-4ef7-859a-a6eb4a00c517}.vdi" (cb=85)
+00:00:06.030071   Type       <string>  = "HardDisk" (cb=9)
+00:00:06.030072   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:06.030072 
+00:00:06.030073 [/Devices/ahci/0/LUN#0/Config/Parent/] (level 6)
+00:00:06.030074   Format <string>  = "VDI" (cb=4)
+00:00:06.030075   Path   <string>  = "C:\Users\BM\VirtualBox VMs\TEST\TEST.vdi" (cb=41)
+00:00:06.030076 
+00:00:06.030077 [/Devices/ahci/0/LUN#0/Config/Plugins/] (level 6)
+00:00:06.030079 
+00:00:06.030079 [/Devices/ahci/0/LUN#0/Config/Plugins/VDPluginCrypt/] (level 7)
+00:00:06.030081   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VDPluginCrypt.DLL" (cb=114)
+00:00:06.030082 
+00:00:06.030082 [/Devices/ahci/0/LUN#1/] (level 4)
+00:00:06.030083   Driver <string>  = "SCSI" (cb=5)
+00:00:06.030084 
+00:00:06.030085 [/Devices/ahci/0/LUN#1/AttachedDriver/] (level 5)
+00:00:06.030086   Driver <string>  = "VD" (cb=3)
+00:00:06.030087 
+00:00:06.030087 [/Devices/ahci/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:06.030089   Format    <string>  = "RAW" (cb=4)
+00:00:06.030090   Mountable <integer> = 0x0000000000000001 (1)
+00:00:06.030091   Path      <string>  = "C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso" (cb=58)
+00:00:06.030092   ReadOnly  <integer> = 0x0000000000000001 (1)
+00:00:06.030092   Type      <string>  = "DVD" (cb=4)
+00:00:06.030093   UseNewIo  <integer> = 0x0000000000000001 (1)
+00:00:06.030094 
+00:00:06.030094 [/Devices/ahci/0/LUN#1/AttachedDriver/Config/Plugins/] (level 7)
+00:00:06.030096 
+00:00:06.030096 [/Devices/ahci/0/LUN#1/AttachedDriver/Config/Plugins/VDPluginCrypt/] (level 8)
+00:00:06.030099   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VDPluginCrypt.DLL" (cb=114)
+00:00:06.030100 
+00:00:06.030100 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:06.030102   Driver <string>  = "MainStatus" (cb=11)
+00:00:06.030103 
+00:00:06.030103 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:06.030104   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:06.030105   First                 <integer> = 0x0000000000000000 (0)
+00:00:06.030106   Last                  <integer> = 0x0000000000000001 (1)
+00:00:06.030107   pConsole              <integer> = 0x0000000003c155e0 (63 002 080)
+00:00:06.030109   papLeds               <integer> = 0x0000000003c159f0 (63 003 120)
+00:00:06.030110   pmapMediumAttachments <integer> = 0x0000000003c15e10 (63 004 176)
+00:00:06.030112 
+00:00:06.030112 [/Devices/apic/] (level 2)
+00:00:06.030113 
+00:00:06.030113 [/Devices/apic/0/] (level 3)
+00:00:06.030115   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.030116 
+00:00:06.030116 [/Devices/apic/0/Config/] (level 4)
+00:00:06.030117   IOAPIC  <integer> = 0x0000000000000000 (0)
+00:00:06.030118   Mode    <integer> = 0x0000000000000002 (2)
+00:00:06.030119   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:06.030120 
+00:00:06.030120 [/Devices/e1000/] (level 2)
+00:00:06.030121 
+00:00:06.030122 [/Devices/e1000/0/] (level 3)
+00:00:06.030123   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030124   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:06.030125   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030126   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.030127 
+00:00:06.030127 [/Devices/e1000/0/Config/] (level 4)
+00:00:06.030129   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:06.030129   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:06.030130   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:06.030131   MAC            <bytes>   = "08 00 27 8c a9 75" (cb=6)
+00:00:06.030133 
+00:00:06.030134 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:06.030135   Driver <string>  = "NAT" (cb=4)
+00:00:06.030136 
+00:00:06.030136 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:06.030138   AliasMode       <integer> = 0x0000000000000000 (0)
+00:00:06.030139   BootFile        <string>  = "TEST.pxe" (cb=9)
+00:00:06.030140   DNSProxy        <integer> = 0x0000000000000000 (0)
+00:00:06.030141   Network         <string>  = "10.0.2.0/24" (cb=12)
+00:00:06.030142   PassDomain      <integer> = 0x0000000000000001 (1)
+00:00:06.030143   TFTPPrefix      <string>  = "C:\Users\BM\.VirtualBox\TFTP" (cb=29)
+00:00:06.030144   UseHostResolver <integer> = 0x0000000000000000 (0)
+00:00:06.030145 
+00:00:06.030145 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:06.030146   Driver <string>  = "MainStatus" (cb=11)
+00:00:06.030147 
+00:00:06.030147 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:06.030149   First   <integer> = 0x0000000000000000 (0)
+00:00:06.030149   Last    <integer> = 0x0000000000000000 (0)
+00:00:06.030150   papLeds <integer> = 0x0000000003c15cd0 (63 003 856)
+00:00:06.030152 
+00:00:06.030152 [/Devices/hda/] (level 2)
+00:00:06.030153 
+00:00:06.030153 [/Devices/hda/0/] (level 3)
+00:00:06.030154   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030155   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:06.030156   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030157   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.030158 
+00:00:06.030158 [/Devices/hda/0/AudioConfig/] (level 4)
+00:00:06.030160 
+00:00:06.030160 [/Devices/hda/0/Config/] (level 4)
+00:00:06.030162   DebugEnabled <integer> = 0x0000000000000000 (0)
+00:00:06.030162   DebugPathOut <string>  = "" (cb=1)
+00:00:06.030163 
+00:00:06.030163 [/Devices/hda/0/LUN#0/] (level 4)
+00:00:06.030165   Driver <string>  = "AUDIO" (cb=6)
+00:00:06.030165 
+00:00:06.030166 [/Devices/hda/0/LUN#0/AttachedDriver/] (level 5)
+00:00:06.030167   Driver <string>  = "DSoundAudio" (cb=12)
+00:00:06.030168 
+00:00:06.030169 [/Devices/hda/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:06.030171   StreamName <string>  = "TEST" (cb=5)
+00:00:06.030171 
+00:00:06.030172 [/Devices/hda/0/LUN#0/Config/] (level 5)
+00:00:06.030173   DebugEnabled  <integer> = 0x0000000000000000 (0)
+00:00:06.030174   DebugPathOut  <string>  = "" (cb=1)
+00:00:06.030175   DriverName    <string>  = "DSoundAudio" (cb=12)
+00:00:06.030176   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:06.030177   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:06.030178 
+00:00:06.030178 [/Devices/hda/0/LUN#1/] (level 4)
+00:00:06.030179   Driver <string>  = "AUDIO" (cb=6)
+00:00:06.030180 
+00:00:06.030180 [/Devices/hda/0/LUN#1/AttachedDriver/] (level 5)
+00:00:06.030182   Driver <string>  = "AudioVRDE" (cb=10)
+00:00:06.030183 
+00:00:06.030183 [/Devices/hda/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:06.030185   Object           <integer> = 0x0000000003c862f0 (63 464 176)
+00:00:06.030186   ObjectVRDPServer <integer> = 0x0000000003c6ed30 (63 368 496)
+00:00:06.030187   StreamName       <string>  = "TEST" (cb=5)
+00:00:06.030188 
+00:00:06.030188 [/Devices/hda/0/LUN#1/Config/] (level 5)
+00:00:06.030190   DebugEnabled  <integer> = 0x0000000000000000 (0)
+00:00:06.030191   DebugPathOut  <string>  = "" (cb=1)
+00:00:06.030192   DriverName    <string>  = "AudioVRDE" (cb=10)
+00:00:06.030192   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:06.030193   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:06.030194 
+00:00:06.030195 [/Devices/i8254/] (level 2)
+00:00:06.030196 
+00:00:06.030196 [/Devices/i8254/0/] (level 3)
+00:00:06.030197 
+00:00:06.030198 [/Devices/i8254/0/Config/] (level 4)
+00:00:06.030199 
+00:00:06.030199 [/Devices/i8259/] (level 2)
+00:00:06.030201 
+00:00:06.030201 [/Devices/i8259/0/] (level 3)
+00:00:06.030203   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.030204 
+00:00:06.030204 [/Devices/i8259/0/Config/] (level 4)
+00:00:06.030206 
+00:00:06.030206 [/Devices/mc146818/] (level 2)
+00:00:06.030207 
+00:00:06.030207 [/Devices/mc146818/0/] (level 3)
+00:00:06.030209 
+00:00:06.030209 [/Devices/mc146818/0/Config/] (level 4)
+00:00:06.030211   UseUTC <integer> = 0x0000000000000000 (0)
+00:00:06.030211 
+00:00:06.030212 [/Devices/parallel/] (level 2)
+00:00:06.030213 
+00:00:06.030213 [/Devices/pcarch/] (level 2)
+00:00:06.030214 
+00:00:06.030214 [/Devices/pcarch/0/] (level 3)
+00:00:06.030216   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.030216 
+00:00:06.030217 [/Devices/pcarch/0/Config/] (level 4)
+00:00:06.030218 
+00:00:06.030218 [/Devices/pcbios/] (level 2)
+00:00:06.030219 
+00:00:06.030220 [/Devices/pcbios/0/] (level 3)
+00:00:06.030221   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.030222 
+00:00:06.030222 [/Devices/pcbios/0/Config/] (level 4)
+00:00:06.030224   APIC               <integer> = 0x0000000000000001 (1)
+00:00:06.030225   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:06.030226   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:06.030227   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:06.030228   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:06.030229   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:06.030230   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:06.030231   IOAPIC             <integer> = 0x0000000000000000 (0)
+00:00:06.030232   LanBootRom         <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\PXE-Intel.rom" (cb=100)
+00:00:06.030234   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:06.030235   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:06.030236   NumCPUs            <integer> = 0x0000000000000001 (1)
+00:00:06.030237   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:06.030238   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:06.030238   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:06.030239   UUID               <bytes>   = "d3 75 30 93 22 fb 67 45 b5 37 3c ce 36 14 a9 f3" (cb=16)
+00:00:06.030242 
+00:00:06.030243 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:06.030244 
+00:00:06.030245 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:06.030246   NIC           <integer> = 0x0000000000000000 (0)
+00:00:06.030247   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030289   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:06.030291   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030292 
+00:00:06.030292 [/Devices/pci/] (level 2)
+00:00:06.030293 
+00:00:06.030294 [/Devices/pci/0/] (level 3)
+00:00:06.030295   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.030296 
+00:00:06.030297 [/Devices/pci/0/Config/] (level 4)
+00:00:06.030298   IOAPIC <integer> = 0x0000000000000000 (0)
+00:00:06.030299 
+00:00:06.030299 [/Devices/pcibridge/] (level 2)
+00:00:06.030300 
+00:00:06.030301 [/Devices/pckbd/] (level 2)
+00:00:06.030302 
+00:00:06.030302 [/Devices/pckbd/0/] (level 3)
+00:00:06.030304   Trusted <integer> = 0x0000000000000001 (1)
+00:00:06.030305 
+00:00:06.030305 [/Devices/pckbd/0/Config/] (level 4)
+00:00:06.030306 
+00:00:06.030307 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:06.030308   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:06.030309 
+00:00:06.030309 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:06.030311   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:06.030312 
+00:00:06.030313 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:06.030315   Object <integer> = 0x0000000003bf7cc0 (62 880 960)
+00:00:06.030316 
+00:00:06.030317 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:06.030318   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:06.030319 
+00:00:06.030320 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:06.030321   Driver <string>  = "MouseQueue" (cb=11)
+00:00:06.030322 
+00:00:06.030323 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:06.030324   Driver <string>  = "MainMouse" (cb=10)
+00:00:06.030325 
+00:00:06.030325 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:06.030327   Object <integer> = 0x0000000003c521f0 (63 250 928)
+00:00:06.030329 
+00:00:06.030329 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:06.030331   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:06.030332 
+00:00:06.030332 [/Devices/pcnet/] (level 2)
+00:00:06.030334 
+00:00:06.030334 [/Devices/serial/] (level 2)
+00:00:06.030335 
+00:00:06.030335 [/Devices/usb-ohci/] (level 2)
+00:00:06.030336 
+00:00:06.030337 [/Devices/usb-ohci/0/] (level 3)
+00:00:06.030338   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030340   PCIDeviceNo   <integer> = 0x0000000000000006 (6)
+00:00:06.030341   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030342   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.030343 
+00:00:06.030343 [/Devices/usb-ohci/0/Config/] (level 4)
+00:00:06.030344 
+00:00:06.030344 [/Devices/usb-ohci/0/LUN#0/] (level 4)
+00:00:06.030346   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:06.030346 
+00:00:06.030346 [/Devices/usb-ohci/0/LUN#0/Config/] (level 5)
+00:00:06.030347 
+00:00:06.030348 [/Devices/usb-ohci/0/LUN#999/] (level 4)
+00:00:06.030349   Driver <string>  = "MainStatus" (cb=11)
+00:00:06.030349 
+00:00:06.030350 [/Devices/usb-ohci/0/LUN#999/Config/] (level 5)
+00:00:06.030351   First   <integer> = 0x0000000000000000 (0)
+00:00:06.030351   Last    <integer> = 0x0000000000000000 (0)
+00:00:06.030352   papLeds <integer> = 0x0000000003c15df8 (63 004 152)
+00:00:06.030353 
+00:00:06.030353 [/Devices/vga/] (level 2)
+00:00:06.030354 
+00:00:06.030354 [/Devices/vga/0/] (level 3)
+00:00:06.030355   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:06.030356   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:06.030356   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:06.030357   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:06.030358 
+00:00:06.030358 [/Devices/vga/0/Config/] (level 4)
+00:00:06.030359   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:06.030360   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:06.030360   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:06.030361   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:06.030362   LogoFile         <string>  = "" (cb=1)
+00:00:06.030362   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:06.030363   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:06.030364   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:06.030364   VRamSize         <integer> = 0x0000000008000000 (134 217 728, 128 MB)
+00:00:06.030366 
+00:00:06.030366 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:06.030367   Driver <string>  = "MainDisplay" (cb=12)
+00:00:06.030368 
+00:00:06.030368 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:06.030369   Object <integer> = 0x0000000003c6bbe0 (63 355 872)
+00:00:06.030370 
+00:00:06.030370 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:06.030371   Driver <string>  = "MainStatus" (cb=11)
+00:00:06.030372 
+00:00:06.030372 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:06.030373   First   <integer> = 0x0000000000000000 (0)
+00:00:06.030374   Last    <integer> = 0x0000000000000000 (0)
+00:00:06.030374   papLeds <integer> = 0x0000000003c15e08 (63 004 168)
+00:00:06.030375 
+00:00:06.030376 [/Devices/virtio-net/] (level 2)
+00:00:06.030377 
+00:00:06.030377 [/EM/] (level 1)
+00:00:06.030378   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:06.030378 
+00:00:06.030379 [/GIM/] (level 1)
+00:00:06.030379   Provider <string>  = "HyperV" (cb=7)
+00:00:06.030380 
+00:00:06.030380 [/HM/] (level 1)
+00:00:06.030381   64bitEnabled       <integer> = 0x0000000000000000 (0)
+00:00:06.030382   EnableLargePages   <integer> = 0x0000000000000001 (1)
+00:00:06.030382   EnableNestedPaging <integer> = 0x0000000000000001 (1)
+00:00:06.030383   EnableUX           <integer> = 0x0000000000000001 (1)
+00:00:06.030384   EnableVPID         <integer> = 0x0000000000000001 (1)
+00:00:06.030385   Exclusive          <integer> = 0x0000000000000000 (0)
+00:00:06.030385   HMForced           <integer> = 0x0000000000000000 (0)
+00:00:06.030386   IBPBOnVMEntry      <integer> = 0x0000000000000000 (0)
+00:00:06.030387   IBPBOnVMExit       <integer> = 0x0000000000000000 (0)
+00:00:06.030387   SpecCtrlByHost     <integer> = 0x0000000000000000 (0)
+00:00:06.030388 
+00:00:06.030388 [/MM/] (level 1)
+00:00:06.030389   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:06.030389 
+00:00:06.030390 [/PDM/] (level 1)
+00:00:06.030390 
+00:00:06.030391 [/PDM/AsyncCompletion/] (level 2)
+00:00:06.030392 
+00:00:06.030392 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:06.030393 
+00:00:06.030393 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:06.030394 
+00:00:06.030394 [/PDM/BlkCache/] (level 2)
+00:00:06.030395   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:06.030396 
+00:00:06.030397 [/PDM/Devices/] (level 2)
+00:00:06.030397 
+00:00:06.030398 [/PDM/Devices/VBoxEhci/] (level 3)
+00:00:06.030399   Path         <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxEhciR3.DLL" (cb=111)
+00:00:06.030400   R0SearchPath <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64" (cb=96)
+00:00:06.030401   RCSearchPath <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64" (cb=96)
+00:00:06.030402 
+00:00:06.030402 [/PDM/Devices/VBoxNvme/] (level 3)
+00:00:06.030403   Path         <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxNvmeR3.DLL" (cb=111)
+00:00:06.030404   R0SearchPath <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64" (cb=96)
+00:00:06.030404   RCSearchPath <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64" (cb=96)
+00:00:06.030405 
+00:00:06.030405 [/PDM/Drivers/] (level 2)
+00:00:06.030406 
+00:00:06.030406 [/PDM/Drivers/DrvHostWebcam/] (level 3)
+00:00:06.030407   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL" (cb=115)
+00:00:06.030408 
+00:00:06.030408 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:06.030409   Path <string>  = "VBoxC" (cb=6)
+00:00:06.030410 
+00:00:06.030410 [/PDM/NetworkShaper/] (level 2)
+00:00:06.030411 
+00:00:06.030411 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:06.030412 
+00:00:06.030412 [/PDM/USB/] (level 2)
+00:00:06.030413 
+00:00:06.030413 [/PDM/USB/VBoxUsbCardReader/] (level 3)
+00:00:06.030414   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxUsbCardReaderR3.DLL" (cb=120)
+00:00:06.030415 
+00:00:06.030415 [/PDM/USB/VBoxUsbWebcam/] (level 3)
+00:00:06.030416   Path <string>  = "C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxUsbWebcamR3.DLL" (cb=116)
+00:00:06.030417 
+00:00:06.030417 [/TM/] (level 1)
+00:00:06.030418   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:06.030419 
+00:00:06.030419 [/USB/] (level 1)
+00:00:06.030420 
+00:00:06.030420 [/USB/HidMouse/] (level 2)
+00:00:06.030421 
+00:00:06.030421 [/USB/HidMouse/0/] (level 3)
+00:00:06.030422 
+00:00:06.030422 [/USB/HidMouse/0/Config/] (level 4)
+00:00:06.030423   Mode <string>  = "absolute" (cb=9)
+00:00:06.030423 
+00:00:06.030424 [/USB/HidMouse/0/LUN#0/] (level 4)
+00:00:06.030424   Driver <string>  = "MouseQueue" (cb=11)
+00:00:06.030425 
+00:00:06.030425 [/USB/HidMouse/0/LUN#0/AttachedDriver/] (level 5)
+00:00:06.030426   Driver <string>  = "MainMouse" (cb=10)
+00:00:06.030427 
+00:00:06.030427 [/USB/HidMouse/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:06.030428   Object <integer> = 0x0000000003c521f0 (63 250 928)
+00:00:06.030429 
+00:00:06.030430 [/USB/HidMouse/0/LUN#0/Config/] (level 5)
+00:00:06.030431   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:06.030431 
+00:00:06.030432 [/USB/USBProxy/] (level 2)
+00:00:06.030432 
+00:00:06.030433 [/USB/USBProxy/GlobalConfig/] (level 3)
+00:00:06.030434 
+00:00:06.030434 ********************* End of CFGM dump **********************
+00:00:06.030446 VM: fHMEnabled=true  (configured) fRecompileUser=false fRecompileSupervisor=false
+00:00:06.030447 VM: fRawRing1Enabled=false CSAM=true  PATM=true 
+00:00:06.030615 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:06.030680 MM: cbHyperHeap=0x100000 (1048576)
+00:00:06.032946 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x1f
+00:00:06.034113 CPUM: Matched host CPU INTEL 0x6/0x8e/0x9 Intel_Core7_KabyLake with CPU DB entry 'Intel Core i7-6700K' (INTEL 0x6/0x5e/0x3 Intel_Core7_Skylake)
+00:00:06.034184 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:06.034199 CPUM: Microcode revision 0x00000062
+00:00:06.034208 CPUM: Changing leaf 13[0]: EBX=0x440 -> 0x340, ECX=0x440 -> 0x340
+00:00:06.039250 PGM: HCPhysInterPD=000000008e1e2000 HCPhysInterPaePDPT=000000008e1e5000 HCPhysInterPaePML4=000000008e1e7000
+00:00:06.039309 PGM: apInterPTs={000000008e1e3000,000000008e1e4000} apInterPaePTs={0000000034646000,0000000032347000} apInterPaePDs={000000011d348000,0000000191649000,00000001c134a000,00000001e034b000} pInterPaePDPT64=000000008e1e6000
+00:00:06.039321 PGM: Host paging mode: AMD64+NX
+00:00:06.039340 PGM: PGMPool: cMaxPages=288 (u64MaxPages=288)
+00:00:06.039347 PGM: pgmR3PoolInit: cMaxPages=0x120 cMaxUsers=0x240 cMaxPhysExts=0x240 fCacheEnable=true 
+00:00:06.050195 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=92 u32UpdateIntervalNS=10794300 enmUseTscDelta=2 (Pratically Zero) fGetGipCpu=0xb cCpus=4
+00:00:06.050224 TM: GIP - u64CpuHz=2 711 999 440 (0xa1a5d3d0)  SUPGetCpuHzFromGip => 2 711 999 440
+00:00:06.050230 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=2711956635(*) cErrors=0
+00:00:06.050236 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x1 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=2711996728(*) cErrors=0
+00:00:06.050239 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x2 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=2711999231(*) cErrors=0
+00:00:06.050243 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x3 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=2711999440(*) cErrors=0
+00:00:06.050288 TM: cTSCTicksPerSecond=2 711 999 440 (0xa1a5d3d0) enmTSCMode=3 (Dynamic)
+00:00:06.050290 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:06.051207 VMM: CoreCode: R3=0000000012550000 R0=XXXXXXXXXXXXXXXX RC=a0351000 Phys=000000008e1c7000 cb=0x1000
+00:00:06.051450 IEM: TargetCpu=CURRENT, Microarch=Intel_Core7_KabyLake
+00:00:06.051545 GIM: Using provider 'HyperV' (Implementation version: 0)
+00:00:06.051555 GIM: HyperV: Reporting vendor as 'VBoxVBoxVBox'
+00:00:06.051561 CPUM: SetGuestCpuIdFeature: Enabled Hypervisor Present bit
+00:00:06.051712 AIOMgr: Default manager type is 'Async'
+00:00:06.051716 AIOMgr: Default file backend is 'NonBuffered'
+00:00:06.051918 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:06.051928 BlkCache: Cache commit interval is 10000 ms
+00:00:06.051932 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:06.442094 PcBios: [SMP] BIOS with 1 CPUs
+00:00:06.442118 PcBios: Using the 386+ BIOS image.
+00:00:06.444927 PcBios: Using LAN ROM 'C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\PXE-Intel.rom' with a size of 0xc000 bytes
+00:00:06.445037 PcBios: fCheckShutdownStatusForSoftReset=true   fClearShutdownStatusOnHardReset=true 
+00:00:06.460124 SUP: Loaded VBoxDDR0.r0 (C:\Program Files\Oracle\VirtualBox\VBoxDDR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:06.460140 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VBoxDDR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:06.460425 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:06.460666 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:06.477469 Shared Folders service loaded
+00:00:06.518891 VGA: Using the 386+ BIOS image.
+00:00:06.522148 VD: VDInit finished with VINF_SUCCESS
+00:00:06.567285 DrvVD: Flushes will be ignored
+00:00:06.567293 DrvVD: Async flushes will be passed to the disk
+00:00:06.573240 AIOMgr: Endpoint for file 'C:\Users\BM\VirtualBox VMs\TEST\TEST.vdi' (flags 000c0781) created successfully
+00:00:06.578288 AIOMgr: Endpoint for file 'C:\Users\BM\VirtualBox VMs\TEST\Snapshots/{d60f0114-a22f-4ef7-859a-a6eb4a00c517}.vdi' (flags 000c0723) created successfully
+00:00:06.579497 VD: Opening the disk took 10181807 ns
+00:00:06.579593 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 41943040
+00:00:06.580089 DrvVD: Flushes will be ignored
+00:00:06.580106 DrvVD: Async flushes will be passed to the disk
+00:00:06.581998 AIOMgr: Endpoint for file 'C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso' (flags 000c0781) created successfully
+00:00:06.582019 VD: Opening the disk took 193063 ns
+00:00:06.582100 AHCI: LUN#1: CD/DVD
+00:00:06.582327 AHCI#0: Reset the HBA
+00:00:06.582337 VD#0: Cancelling all active requests
+00:00:06.582376 E1000#0 Chip=82540EM LinkUpDelay=3000ms EthernetCRC=on GSO=enabled Itr=disabled ItrRx=enabled TID=disabled R0=enabled GC=enabled
+00:00:06.598119 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:06.601655 NAT: DNS#0: 192.168.1.254
+00:00:06.602427 HDA: Asynchronous I/O enabled
+00:00:06.602457 Audio: Initializing DirectSound audio driver
+00:00:06.716205 DSound: Output: GUID: {BB88D998-CD61-45EF-8797-02BB337EFD2B} [Speaker/HP (Realtek High Definition Audio)] (Module: {0.0.0.00000000}.{bb88d998-cd61-45ef-8797-02bb337efd2b})
+00:00:06.812305 DSound: Input: GUID: {153B0238-0FB3-49F0-BF04-FC88B8F0B94C} [Microphone Array (Realtek High Definition Audio)] (Module: {0.0.1.00000000}.{153b0238-0fb3-49f0-bf04-fc88b8f0b94c})
+00:00:06.812821 Audio: Initializing VRDE driver
+00:00:06.812912 HDA: Codec reset
+00:00:06.812923 HDA: Reset
+00:00:06.813191 GIMDev: Registered Hyper-V hypercall page
+00:00:06.813214 GIMDev: Registered Hyper-V TSC page
+00:00:06.826806 VUSB: Attached 'HidMouse' to port 1 on RootHub#0 (FullSpeed)
+00:00:06.826875 PGM: The CPU physical address width is 39 bits
+00:00:06.826880 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000007fffffffff
+00:00:06.827052 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=true 
+00:00:06.851102 VMM: Thread-context hooks unavailable
+00:00:06.852732 HM: fWorldSwitcher=0x0 (fIbpbOnVmExit=0 fIbpbOnVmEntry=0)
+00:00:06.852754 HM: Using VT-x implementation 2.0
+00:00:06.852755 HM: Host CR4                        = 0x170678
+00:00:06.852757 HM: Host EFER                       = 0xd01
+00:00:06.852760 HM: MSR_IA32_SMM_MONITOR_CTL        = 0x0
+00:00:06.852760 HM: MSR_IA32_FEATURE_CONTROL        = 0x40005
+00:00:06.852761 HM: MSR_IA32_VMX_BASIC_INFO         = 0xda040000000004
+00:00:06.852762 HM:   VMCS id                         = 0x4
+00:00:06.852762 HM:   VMCS size                       = 1024 bytes
+00:00:06.852763 HM:   VMCS physical address limit     = None
+00:00:06.852764 HM:   VMCS memory type                = 0x6
+00:00:06.852764 HM:   Dual-monitor treatment support  = true 
+00:00:06.852765 HM:   OUTS & INS instruction-info     = false
+00:00:06.852766 HM:   Supports true capability MSRs   = false
+00:00:06.852767 HM: Max resume loops                = 1024
+00:00:06.852767 HM: MSR_IA32_VMX_PINBASED_CTLS      = 0x7f00000016
+00:00:06.852768 HM:   EXT_INT_EXIT
+00:00:06.852769 HM:   NMI_EXIT
+00:00:06.852769 HM:   VIRTUAL_NMI
+00:00:06.852769 HM:   PREEMPT_TIMER
+00:00:06.852770 HM:   POSTED_INTR (must be cleared)
+00:00:06.852770 HM: MSR_IA32_VMX_PROCBASED_CTLS     = 0xfff9fffe0401e172
+00:00:06.852771 HM:   INT_WINDOW_EXIT
+00:00:06.852772 HM:   USE_TSC_OFFSETTING
+00:00:06.852772 HM:   HLT_EXIT
+00:00:06.852773 HM:   INVLPG_EXIT
+00:00:06.852773 HM:   MWAIT_EXIT
+00:00:06.852774 HM:   RDPMC_EXIT
+00:00:06.852774 HM:   RDTSC_EXIT
+00:00:06.852774 HM:   CR3_LOAD_EXIT (must be set)
+00:00:06.852775 HM:   CR3_STORE_EXIT (must be set)
+00:00:06.852775 HM:   CR8_LOAD_EXIT
+00:00:06.852776 HM:   CR8_STORE_EXIT
+00:00:06.852776 HM:   USE_TPR_SHADOW
+00:00:06.852776 HM:   NMI_WINDOW_EXIT
+00:00:06.852779 HM:   MOV_DR_EXIT
+00:00:06.852780 HM:   UNCOND_IO_EXIT
+00:00:06.852780 HM:   USE_IO_BITMAPS
+00:00:06.852780 HM:   MONITOR_TRAP_FLAG
+00:00:06.852781 HM:   USE_MSR_BITMAPS
+00:00:06.852781 HM:   MONITOR_EXIT
+00:00:06.852782 HM:   PAUSE_EXIT
+00:00:06.852782 HM:   USE_SECONDARY_EXEC_CTRL
+00:00:06.852782 HM: MSR_IA32_VMX_PROCBASED_CTLS2    = 0x5fbcff00000000
+00:00:06.852784 HM:   VIRT_APIC
+00:00:06.852784 HM:   EPT
+00:00:06.852785 HM:   DESCRIPTOR_TABLE_EXIT
+00:00:06.852785 HM:   RDTSCP
+00:00:06.852785 HM:   VIRT_X2APIC
+00:00:06.852786 HM:   VPID
+00:00:06.852788 HM:   WBINVD_EXIT
+00:00:06.852789 HM:   UNRESTRICTED_GUEST
+00:00:06.852789 HM:   APIC_REG_VIRT (must be cleared)
+00:00:06.852790 HM:   VIRT_INTR_DELIVERY (must be cleared)
+00:00:06.852790 HM:   PAUSE_LOOP_EXIT
+00:00:06.852791 HM:   RDRAND_EXIT
+00:00:06.852791 HM:   INVPCID
+00:00:06.852791 HM:   VMFUNC
+00:00:06.852792 HM:   VMCS_SHADOWING (must be cleared)
+00:00:06.852792 HM:   ENCLS_EXIT
+00:00:06.852793 HM:   RDSEED_EXIT
+00:00:06.852793 HM:   PML
+00:00:06.852794 HM:   EPT_VE
+00:00:06.852794 HM:   CONCEAL_FROM_PT
+00:00:06.852794 HM:   XSAVES_XRSTORS
+00:00:06.852795 HM:   TSC_SCALING (must be cleared)
+00:00:06.852795 HM: MSR_IA32_VMX_ENTRY_CTLS         = 0x3ffff000011ff
+00:00:06.852796 HM:   LOAD_DEBUG (must be set)
+00:00:06.852797 HM:   IA32E_MODE_GUEST
+00:00:06.852797 HM:   ENTRY_SMM
+00:00:06.852798 HM:   DEACTIVATE_DUALMON
+00:00:06.852798 HM:   LOAD_GUEST_PERF_MSR
+00:00:06.852799 HM:   LOAD_GUEST_PAT_MSR
+00:00:06.852799 HM:   LOAD_GUEST_EFER_MSR
+00:00:06.852800 HM: MSR_IA32_VMX_EXIT_CTLS          = 0x1ffffff00036dff
+00:00:06.852801 HM:   SAVE_DEBUG (must be set)
+00:00:06.852802 HM:   HOST_ADDR_SPACE_SIZE
+00:00:06.852802 HM:   LOAD_PERF_MSR
+00:00:06.852803 HM:   ACK_EXT_INT
+00:00:06.852804 HM:   SAVE_GUEST_PAT_MSR
+00:00:06.852805 HM:   LOAD_HOST_PAT_MSR
+00:00:06.852805 HM:   SAVE_GUEST_EFER_MSR
+00:00:06.852806 HM:   LOAD_HOST_EFER_MSR
+00:00:06.852806 HM:   SAVE_VMX_PREEMPT_TIMER
+00:00:06.852806 HM: MSR_IA32_VMX_EPT_VPID_CAP       = 0xf0106734141
+00:00:06.852811 HM:   RWX_X_ONLY
+00:00:06.852811 HM:   PAGE_WALK_LENGTH_4
+00:00:06.852812 HM:   EMT_UC
+00:00:06.852812 HM:   EMT_WB
+00:00:06.852812 HM:   PDE_2M
+00:00:06.852812 HM:   PDPTE_1G
+00:00:06.852813 HM:   INVEPT
+00:00:06.852813 HM:   EPT_ACCESS_DIRTY
+00:00:06.852813 HM:   INVEPT_SINGLE_CONTEXT
+00:00:06.852814 HM:   INVEPT_ALL_CONTEXTS
+00:00:06.852814 HM:   INVVPID
+00:00:06.852814 HM:   INVVPID_INDIV_ADDR
+00:00:06.852814 HM:   INVVPID_SINGLE_CONTEXT
+00:00:06.852815 HM:   INVVPID_ALL_CONTEXTS
+00:00:06.852815 HM:   INVVPID_SINGLE_CONTEXT_RETAIN_GLOBALS
+00:00:06.852815 HM: MSR_IA32_VMX_MISC               = 0x7004c1e7
+00:00:06.852816 HM:   PREEMPT_TSC_BIT                 = 0x7
+00:00:06.852817 HM:   STORE_EFERLMA_VMEXIT            = true 
+00:00:06.852818 HM:   ACTIVITY_STATES                 = 0x7
+00:00:06.852818 HM:   CR3_TARGET                      = 0x4
+00:00:06.852819 HM:   MAX_MSR                         = 512
+00:00:06.852819 HM:   RDMSR_SMBASE_MSR_SMM            = true 
+00:00:06.852819 HM:   SMM_MONITOR_CTL_B2              = true 
+00:00:06.852820 HM:   VMWRITE_VMEXIT_INFO             = true 
+00:00:06.852820 HM:   MSEG_ID                         = 0x0
+00:00:06.852821 HM: MSR_IA32_VMX_CR0_FIXED0         = 0x80000021
+00:00:06.852821 HM: MSR_IA32_VMX_CR0_FIXED1         = 0xffffffff
+00:00:06.852822 HM: MSR_IA32_VMX_CR4_FIXED0         = 0x2000
+00:00:06.852822 HM: MSR_IA32_VMX_CR4_FIXED1         = 0x3727ff
+00:00:06.852823 HM: MSR_IA32_VMX_VMCS_ENUM          = 0x2e
+00:00:06.852824 HM:   HIGHEST_INDEX                   = 0x17
+00:00:06.852824 HM: MSR_IA32_VMX_VMFUNC             = 0x1
+00:00:06.852825 HM:   EPTP_SWITCHING
+00:00:06.852825 HM: APIC-access page physaddr       = 0x000000008e1c6000
+00:00:06.852827 HM: VCPU  0: MSR bitmap physaddr    = 0x000000008e1c4000
+00:00:06.852828 HM: VCPU  0: VMCS physaddr          = 0x000000008e1c5000
+00:00:06.852830 HM: Guest support: 32-bit only
+00:00:06.852861 HM: Supports VMCS EFER fields       = true 
+00:00:06.852863 HM: Enabled VMX
+00:00:06.852874 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:06.852875 HM: Enabled nested paging
+00:00:06.852876 HM:   EPT flush type                = VMXFLUSHEPT_SINGLE_CONTEXT
+00:00:06.852877 HM: Enabled unrestricted guest execution
+00:00:06.852879 HM: Enabled large page support
+00:00:06.852879 HM: Enabled VPID
+00:00:06.852881 HM:   VPID flush type               = VMXFLUSHVPID_SINGLE_CONTEXT
+00:00:06.852882 HM: Enabled VMX-preemption timer (cPreemptTimerShift=7)
+00:00:06.852883 HM: VT-x/AMD-V init method: LOCAL
+00:00:06.852889 VMM: fUsePeriodicPreemptionTimers=false
+00:00:06.853151 CPUM: Logical host processors: 4 present, 4 max, 4 online, online mask: 000000000000000f
+00:00:06.853159 CPUM: Physical host cores: 2
+00:00:06.853160 ************************* CPUID dump ************************
+00:00:06.853208          Raw Standard CPUID Leaves
+00:00:06.853209      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:06.853216 Gst: 00000000/0000  00000016 756e6547 6c65746e 49656e69
+00:00:06.853218 Hst:                00000016 756e6547 6c65746e 49656e69
+00:00:06.853219 Gst: 00000001/0000  000806e9 00000800 d6da220b 078bfbbf
+00:00:06.853220 Hst:                000806e9 02100800 7ffafbbf bfebfbff
+00:00:06.853221 Gst: 00000002/0000  76036301 00f0b5ff 00000000 00c30000
+00:00:06.853222 Hst:                76036301 00f0b5ff 00000000 00c30000
+00:00:06.853224 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:06.853224 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853225 Gst: 00000004/0000  00000121 01c0003f 0000003f 00000000
+00:00:06.853226 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:06.853227 Gst: 00000004/0001  00000122 01c0003f 0000003f 00000000
+00:00:06.853228 Hst:                1c004122 01c0003f 0000003f 00000000
+00:00:06.853229 Gst: 00000004/0002  00000143 00c0003f 000003ff 00000000
+00:00:06.853230 Hst:                1c004143 00c0003f 000003ff 00000000
+00:00:06.853231 Gst: 00000004/0003  00000163 02c0003f 00000fff 00000006
+00:00:06.853232 Hst:                1c03c163 02c0003f 00000fff 00000006
+00:00:06.853233 Gst: 00000004/0004  00000000 00000000 00000000 00000000
+00:00:06.853233 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853234 Gst: 00000005/0000  00000040 00000040 00000000 00000000
+00:00:06.853235 Hst:                00000040 00000040 00000003 11142120
+00:00:06.853237 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:06.853237 Hst:                000027f7 00000002 00000009 00000000
+00:00:06.853238 Gst: 00000007/0000  00000000 00842421 00000000 00000000
+00:00:06.853239 Hst:                00000000 029c67af 00000000 00000000
+00:00:06.853240 Gst: 00000007/0001  00000000 00000000 00000000 00000000
+00:00:06.853240 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853241 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:06.853241 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853242 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:06.853243 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853243 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:06.853244 Hst:                07300404 00000000 00000000 00000603
+00:00:06.853245 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:06.853245 Hst:                00000001 00000002 00000100 00000002
+00:00:06.853246 Gst: 0000000b/0001  00000001 00000001 00000201 00000000
+00:00:06.853247 Hst:                00000004 00000004 00000201 00000002
+00:00:06.853248 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:06.853250 Hst:                00000000 00000000 00000002 00000002
+00:00:06.853251 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:06.853252 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853253 Gst: 0000000d/0000  00000007 00000340 00000340 00000000
+00:00:06.853254 Hst:                0000001f 00000440 00000440 00000000
+00:00:06.853255 Gst: 0000000d/0001  00000000 00000440 00000000 00000000
+00:00:06.853256 Hst:                0000000f 00000440 00000100 00000000
+00:00:06.853258 Gst: 0000000d/0002  00000100 00000240 00000000 00000000
+00:00:06.853258 Hst:                00000100 00000240 00000000 00000000
+00:00:06.853259 Gst: 0000000d/0003  00000000 00000000 00000000 00000000
+00:00:06.853259 Hst:                00000040 000003c0 00000000 00000000
+00:00:06.853260 Gst: 0000000d/0004  00000000 00000000 00000000 00000000
+00:00:06.853261 Hst:                00000040 00000400 00000000 00000000
+00:00:06.853261 Gst: 0000000d/0005  00000000 00000000 00000000 00000000
+00:00:06.853262 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853264 Gst: 0000000d/0006  00000000 00000000 00000000 00000000
+00:00:06.853265 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853265 Gst: 0000000d/0007  00000000 00000000 00000000 00000000
+00:00:06.853266 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853267 Gst: 0000000d/0008  00000000 00000000 00000000 00000000
+00:00:06.853267 Hst:                00000080 00000000 00000001 00000000
+00:00:06.853268 Gst: 0000000d/0009  00000000 00000000 00000000 00000000
+00:00:06.853268 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853289 Gst: 0000000e/0000  00000000 00000000 00000000 00000000
+00:00:06.853290 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853290 Gst: 0000000f/0000  00000000 00000000 00000000 00000000
+00:00:06.853291 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853292 Gst: 00000010/0000  00000000 00000000 00000000 00000000
+00:00:06.853292 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853293 Gst: 00000011/0000  00000000 00000000 00000000 00000000
+00:00:06.853294 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853305 Gst: 00000012/0000  00000000 00000000 00000000 00000000
+00:00:06.853306 Hst:                00000001 00000000 00000000 0000241f
+00:00:06.853307 Hst: 00000013/0000  00000000 00000000 00000000 00000000
+00:00:06.853307 Hst: 00000014/0000  00000001 0000000f 00000007 00000000
+00:00:06.853308 Hst: 00000015/0000  00000002 000000e2 00000000 00000000
+00:00:06.853310 Hst: 00000016/0000  00000a8c 00000c1c 00000064 00000000
+00:00:06.853312                                Name: GenuineIntel
+00:00:06.853313                            Supports: 0x00000000-0x00000016
+00:00:06.853324                              Family:  6 	Extended: 0 	Effective: 6
+00:00:06.853326                               Model: 14 	Extended: 8 	Effective: 142
+00:00:06.853328                            Stepping: 9
+00:00:06.853328                                Type: 0 (primary)
+00:00:06.853329                             APIC ID: 0x00
+00:00:06.853330                        Logical CPUs: 0
+00:00:06.853330                        CLFLUSH Size: 8
+00:00:06.853331                            Brand ID: 0x00
+00:00:06.853332 Features
+00:00:06.853332   Mnemonic - Description                                  = guest (host)
+00:00:06.853334   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:06.853336   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:06.853337   DE - Debugging extensions                               = 1 (1)
+00:00:06.853338   PSE - Page Size Extension                               = 1 (1)
+00:00:06.853340   TSC - Time Stamp Counter                                = 1 (1)
+00:00:06.853340   MSR - Model Specific Registers                          = 1 (1)
+00:00:06.853341   PAE - Physical Address Extension                        = 0 (1)
+00:00:06.853342   MCE - Machine Check Exception                           = 1 (1)
+00:00:06.853343   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:06.853344   APIC - APIC On-Chip                                     = 1 (1)
+00:00:06.853345   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:06.853346   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:06.853347   PGE - PTE Global Bit                                    = 1 (1)
+00:00:06.853348   MCA - Machine Check Architecture                        = 1 (1)
+00:00:06.853349   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:06.853349   PAT - Page Attribute Table                              = 1 (1)
+00:00:06.853351   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:06.853352   PSN - Processor Serial Number                           = 0 (0)
+00:00:06.853352   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:06.853354   DS - Debug Store                                        = 0 (1)
+00:00:06.853355   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:06.853356   MMX - Intel MMX Technology                              = 1 (1)
+00:00:06.853357   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:06.853358   SSE - SSE support                                       = 1 (1)
+00:00:06.853359   SSE2 - SSE2 support                                     = 1 (1)
+00:00:06.853371   SS - Self Snoop                                         = 0 (1)
+00:00:06.853372   HTT - Hyper-Threading Technology                        = 0 (1)
+00:00:06.853374   TM - Therm. Monitor                                     = 0 (1)
+00:00:06.853378   PBE - Pending Break Enabled                             = 0 (1)
+00:00:06.853380   SSE3 - SSE3 support                                     = 1 (1)
+00:00:06.853381   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:06.853382   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:06.853383   MONITOR - MONITOR/MWAIT instructions                    = 1 (1)
+00:00:06.853387   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:06.853388   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:06.853390   SMX - Safer Mode Extensions                             = 0 (0)
+00:00:06.853392   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:06.853393   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:06.853394   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:06.853395   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:06.853398   SDBG - Silicon Debug interface                          = 0 (1)
+00:00:06.853399   FMA - Fused Multiply Add extensions                     = 0 (1)
+00:00:06.853399   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:06.853400   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:06.853403   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:06.853404   PCID - Process Context Identifiers                      = 1 (1)
+00:00:06.853404   DCA - Direct Cache Access                               = 0 (0)
+00:00:06.853405   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:06.853409   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:06.853410   X2APIC - x2APIC support                                 = 0 (1)
+00:00:06.853411   MOVBE - MOVBE instruction                               = 1 (1)
+00:00:06.853413   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:06.853414   TSCDEADL - Time Stamp Counter Deadline                  = 0 (1)
+00:00:06.853415   AES - AES instructions                                  = 1 (1)
+00:00:06.853416   XSAVE - XSAVE instruction                               = 1 (1)
+00:00:06.853416   OSXSAVE - OSXSAVE instruction                           = 0 (1)
+00:00:06.853418   AVX - AVX support                                       = 1 (1)
+00:00:06.853420   F16C - 16-bit floating point conversion instructions    = 0 (1)
+00:00:06.853422   RDRAND - RDRAND instruction                             = 1 (1)
+00:00:06.853423   HVP - Hypervisor Present (we're a guest)                = 1 (0)
+00:00:06.853425 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:06.853427   Mnemonic - Description                                  = guest (host)
+00:00:06.853427   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 1 (1)
+00:00:06.853428   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (1)
+00:00:06.853428   SGX - Supports Software Guard Extensions                = 0 (1)
+00:00:06.853429   BMI1 - Advanced Bit Manipulation extension 1            = 0 (1)
+00:00:06.853431   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:06.853432   AVX2 - Advanced Vector Extensions 2                     = 1 (1)
+00:00:06.853434   FDP_EXCPTN_ONLY - FPU DP only updated on exceptions     = 0 (0)
+00:00:06.853434   SMEP - Supervisor Mode Execution Prevention             = 0 (1)
+00:00:06.853435   BMI2 - Advanced Bit Manipulation extension 2            = 0 (1)
+00:00:06.853437   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (1)
+00:00:06.853438   INVPCID - INVPCID instruction                           = 1 (1)
+00:00:06.853439   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:06.853440   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:06.853441   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 1 (1)
+00:00:06.853441   MPE - Intel Memory Protection Extensions                = 0 (1)
+00:00:06.853442   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:06.853443   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:06.853443   RDSEED - RDSEED instruction                             = 1 (1)
+00:00:06.853445   ADX - ADCX/ADOX instructions                            = 0 (1)
+00:00:06.853445   SMAP - Supervisor Mode Access Prevention                = 0 (1)
+00:00:06.853446   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 1 (1)
+00:00:06.853447   INTEL_PT - Intel Processor Trace                        = 0 (1)
+00:00:06.853448   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:06.853448   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:06.853449   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:06.853450   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:06.853450   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:06.853451   UMIP - User mode insturction prevention                 = 0 (0)
+00:00:06.853453   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:06.853453   OSPKE - CR4.PKU mirror                                  = 0 (0)
+00:00:06.853454   MAWAU - Value used by BNDLDX & BNDSTX                   = 0x0 (0x0)
+00:00:06.853456   RDPID - Read processor ID support                       = 0 (0)
+00:00:06.853457   SGX_LC - Supports SGX Launch Configuration              = 0 (0)
+00:00:06.853458 Processor Extended State Enumeration (leaf 0xd):
+00:00:06.853459    XSAVE area cur/max size by XCR0, guest: 0x340/0x340
+00:00:06.853460     XSAVE area cur/max size by XCR0, host: 0x440/0x440
+00:00:06.853461                    Valid XCR0 bits, guest: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:06.853463                     Valid XCR0 bits, host: 0x00000000`0000001f ( x87 SSE YMM_Hi128 BNDREGS BNDCSR )
+00:00:06.853469                     XSAVE features, guest:
+00:00:06.853469                      XSAVE features, host: XSAVEOPT XSAVEC XGETBC1 XSAVES
+00:00:06.853471       XSAVE area cur size XCR0|XSS, guest: 0x440
+00:00:06.853471        XSAVE area cur size XCR0|XSS, host: 0x440
+00:00:06.853472                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:06.853473                 Valid IA32_XSS bits, host: 0x00000100`00000000 ( 40 )
+00:00:06.853474   State #2, guest: off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:06.853476   State #2, host:  off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:06.853478   State #3, host:  off=0x03c0, cb=0x0040 IA32_XSS-bit -- BNDREGS
+00:00:06.853479   State #4, host:  off=0x0400, cb=0x0040 IA32_XSS-bit -- BNDCSR
+00:00:06.853481   State #8, host:  off=0x0000, cb=0x0080 XCR0-bit -- 8
+00:00:06.853491          Unknown CPUID Leaves
+00:00:06.853492      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:06.853494 Gst: 00000012/0001  00000000 00000000 00000000 00000000
+00:00:06.853496 Hst:                00000036 00000000 0000001f 00000000
+00:00:06.853497 Gst: 00000012/0002  00000000 00000000 00000000 00000000
+00:00:06.853498 Hst:                90200001 00000000 05d80001 00000000
+00:00:06.853499 Gst: 00000012/0003  00000000 00000000 00000000 00000000
+00:00:06.853500 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853501 Gst: 00000013/0000  00000000 00000000 00000000 00000000
+00:00:06.853501 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853502 Gst: 00000014/0000  00000000 00000000 00000000 00000000
+00:00:06.853503 Hst:                00000001 0000000f 00000007 00000000
+00:00:06.853503 Gst: 00000014/0001  00000000 00000000 00000000 00000000
+00:00:06.853504 Hst:                02490002 003f3fff 00000000 00000000
+00:00:06.853505 Gst: 00000014/0002  00000000 00000000 00000000 00000000
+00:00:06.853506 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853506 Gst: 00000015/0000  00000000 00000000 00000000 00000000
+00:00:06.853507 Hst:                00000002 000000e2 00000000 00000000
+00:00:06.853508 Gst: 00000016/0000  00000000 00000000 00000000 00000000
+00:00:06.853509 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853510          Raw Hypervisor CPUID Leaves
+00:00:06.853511      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:06.853512 Gst: 40000000/0000  40000006 786f4256 786f4256 786f4256
+00:00:06.853513 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853515 Gst: 40000001/0000  31237648 00000000 00000000 00000000
+00:00:06.853516 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853517 Gst: 40000002/0000  00000000 00000000 00000000 00000000
+00:00:06.853518 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853519 Gst: 40000003/0000  00000af2 00000000 00000000 00000500
+00:00:06.853520 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853522 Gst: 40000004/0000  00000130 ffffffff 00000000 00000000
+00:00:06.853523 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853524 Gst: 40000005/0000  00000000 00000000 00000000 00000000
+00:00:06.853525 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853526 Gst: 40000006/0000  0000000a 00000000 00000000 00000000
+00:00:06.853527 Hst:                00000a8c 00000c1c 00000064 00000000
+00:00:06.853528          Raw Extended CPUID Leaves
+00:00:06.853528      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:06.853529 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:06.853530 Hst:                80000008 00000000 00000000 00000000
+00:00:06.853531 Gst: 80000001/0000  00000000 00000000 00000121 08000000
+00:00:06.853532 Hst:                00000000 00000000 00000121 2c100800
+00:00:06.853533 Gst: 80000002/0000  65746e49 2952286c 726f4320 4d542865
+00:00:06.853534 Hst:                65746e49 2952286c 726f4320 4d542865
+00:00:06.853536 Gst: 80000003/0000  35692029 3032372d 43205530 40205550
+00:00:06.853537 Hst:                35692029 3032372d 43205530 40205550
+00:00:06.853539 Gst: 80000004/0000  352e3220 7a484730 00000000 00000000
+00:00:06.853540 Hst:                352e3220 7a484730 00000000 00000000
+00:00:06.853542 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:06.853542 Hst:                00000000 00000000 00000000 00000000
+00:00:06.853544 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:06.853545 Hst:                00000000 00000000 01006040 00000000
+00:00:06.853547 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:06.853547 Hst:                00000000 00000000 00000000 00000100
+00:00:06.853548 Gst: 80000008/0000  00003027 00000000 00000000 00000000
+00:00:06.853549 Hst:                00003027 00000000 00000000 00000000
+00:00:06.853549 Ext Name:                        
+00:00:06.853550 Ext Supports:                    0x80000000-0x80000008
+00:00:06.853551 Family:                          0  	Extended: 0 	Effective: 0
+00:00:06.853552 Model:                           0  	Extended: 0 	Effective: 0
+00:00:06.853553 Stepping:                        0
+00:00:06.853553 Brand ID:                        0x000
+00:00:06.853554 Ext Features
+00:00:06.853555   Mnemonic - Description                                  = guest (host)
+00:00:06.853555   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:06.853557   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:06.853557   DE - Debugging extensions                               = 0 (0)
+00:00:06.853558   PSE - Page Size Extension                               = 0 (0)
+00:00:06.853559   TSC - Time Stamp Counter                                = 0 (0)
+00:00:06.853560   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:06.853561   PAE - Physical Address Extension                        = 0 (0)
+00:00:06.853562   MCE - Machine Check Exception                           = 0 (0)
+00:00:06.853562   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:06.853563   APIC - APIC On-Chip                                     = 0 (0)
+00:00:06.853564   SEP - SYSCALL/SYSRET                                    = 0 (1)
+00:00:06.853565   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:06.853566   PGE - PTE Global Bit                                    = 0 (0)
+00:00:06.853567   MCA - Machine Check Architecture                        = 0 (0)
+00:00:06.853568   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:06.853570   PAT - Page Attribute Table                              = 0 (0)
+00:00:06.853571   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:06.853572   NX - No-Execute/Execute-Disable                         = 0 (1)
+00:00:06.853573   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:06.853574   MMX - Intel MMX Technology                              = 0 (0)
+00:00:06.853575   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:06.853577   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:06.853577   Page1GB - 1 GB large page                               = 0 (1)
+00:00:06.853579   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:06.853580   LM - AMD64 Long Mode                                    = 0 (1)
+00:00:06.853581   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:06.853581   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:06.853582   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:06.853583   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:06.853584   SVM - AMD Secure Virtual Machine extensions             = 0 (0)
+00:00:06.853585   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:06.853586   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:06.853587   ABM - AMD Advanced Bit Manipulation                     = 1 (1)
+00:00:06.853588   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:06.853589   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:06.853590   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 1 (1)
+00:00:06.853591   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:06.853592   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:06.853593   XOP - Extended Operation support                        = 0 (0)
+00:00:06.853594   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:06.853595   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:06.853596   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:06.853597   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:06.853598   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:06.853599   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:06.853601   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:06.853602 Full Name:                       "Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz"
+00:00:06.853603 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:06.853604 TLB 2/4M Data:                   res0     0 entries
+00:00:06.853604 TLB 4K Instr/Uni:                res0     0 entries
+00:00:06.853605 TLB 4K Data:                     res0     0 entries
+00:00:06.853606 L1 Instr Cache Line Size:        0 bytes
+00:00:06.853606 L1 Instr Cache Lines Per Tag:    0
+00:00:06.853607 L1 Instr Cache Associativity:    res0  
+00:00:06.853607 L1 Instr Cache Size:             0 KB
+00:00:06.853608 L1 Data Cache Line Size:         0 bytes
+00:00:06.853608 L1 Data Cache Lines Per Tag:     0
+00:00:06.853608 L1 Data Cache Associativity:     res0  
+00:00:06.853608 L1 Data Cache Size:              0 KB
+00:00:06.853609 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:06.853610 L2 TLB 2/4M Data:                off       0 entries
+00:00:06.853611 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:06.853611 L2 TLB 4K Data:                  off       0 entries
+00:00:06.853612 L2 Cache Line Size:              0 bytes
+00:00:06.853612 L2 Cache Lines Per Tag:          0
+00:00:06.853613 L2 Cache Associativity:          off   
+00:00:06.853613 L2 Cache Size:                   0 KB
+00:00:06.853614 APM Features:                    TscInvariant
+00:00:06.853615 Host Invariant-TSC support:      true 
+00:00:06.853617 Physical Address Width:          39 bits
+00:00:06.853618 Virtual Address Width:           48 bits
+00:00:06.853618 Guest Physical Address Width:    0 bits
+00:00:06.853619 Physical Core Count:             1
+00:00:06.853623 
+00:00:06.853624 ******************** End of CPUID dump **********************
+00:00:06.878975 PcBios: SATA LUN#0 LCHS=1024/255/63
+00:00:06.879004 APIC: fPostedIntrsEnabled=false fVirtApicRegsEnabled=false fSupportsTscDeadline=false
+00:00:06.879011 TMR3UtcNow: nsNow=1 525 355 785 231 873 900 nsPrev=0 -> cNsDelta=1 525 355 785 231 873 900 (offLag=0 offVirtualSync=0 offVirtualSyncGivenUp=0, NowAgain=1 525 355 785 231 873 900)
+00:00:06.879023 VMEmt: Halt method global1 (5)
+00:00:06.879032 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=50000
+00:00:06.879036 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:06.879981 SharedFolders host service: Adding host mapping
+00:00:06.879999     Host path 'C:\Users\BM\Documents\Visual Studio 2015\Projects\vbox_5.2.6\Release', map name 'Release', writable, automount=true, create_symlinks=false, missing=false
+00:00:06.880233 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:06.880276 AIOMgr: Endpoints without assigned bandwidth groups:
+00:00:06.880280 AIOMgr:     C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso
+00:00:06.880283 AIOMgr:     C:\Users\BM\VirtualBox VMs\TEST\Snapshots/{d60f0114-a22f-4ef7-859a-a6eb4a00c517}.vdi
+00:00:06.880286 AIOMgr:     C:\Users\BM\VirtualBox VMs\TEST\TEST.vdi
+00:00:06.880361 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:06.880371 Console: Machine state changed to 'Running'
+00:00:06.882931 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+00:00:06.882975 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+00:00:06.889798 VMMDev: Guest Log: BIOS: VirtualBox 5.2.10
+00:00:06.890017 PCI: setting up resources and interrupts
+00:00:06.894298 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:06.901120 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:06.901206 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=720x400, Sending to async-handler
+00:00:06.909194 VMMDev: Guest Log: CPUID EDX: 0x078bfbbf
+00:00:06.916718 AHCI#0: Reset the HBA
+00:00:06.916743 VD#0: Cancelling all active requests
+00:00:06.916786 AHCI#0: Port 0 reset
+00:00:06.916809 VD#0: Cancelling all active requests
+00:00:06.917548 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000002800000 sectors
+00:00:06.917609 AHCI#0: Port 1 reset
+00:00:06.918040 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:06.931555 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000012df0000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0
+00:00:06.931768 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x480, Sending to async-handler
+00:00:07.382837 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 1106x610
+00:00:07.382924 VMMDev: SetVideoModeHint: Got a video mode hint (1106x610x32)@(0x0),(1;0) at 0
+00:00:07.383017 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=720x400
+00:00:07.383032 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=720x400
+00:00:07.383051 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Directly using source bitmap content
+00:00:07.383506 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x480
+00:00:07.383530 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x480
+00:00:07.385740 GUI: 2D video acceleration is disabled
+00:00:07.385782 GUI: HID LEDs sync is enabled
+00:00:07.431359 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:09.393088 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=0 h=0 bpp=0 cbLine=0x0 flags=0x0
+00:00:09.393204 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x480, Sending to async-handler
+00:00:09.393363 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x480
+00:00:09.393414 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x480
+00:00:09.393490 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:00:09.416813 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:09.420017 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=720x400, Sending to async-handler
+00:00:09.420368 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=720x400
+00:00:09.420422 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=720x400
+00:00:09.421393 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Directly using source bitmap content
+00:00:09.436279 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:09.441948 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0231
+00:00:09.444171 VMMDev: Guest Log: BIOS: Boot from Floppy 0 failed
+00:00:09.446066 VMMDev: Guest Log: BIOS: Boot : bseqnr=2, bootseq=0023
+00:00:09.457477 VMMDev: Guest Log: BIOS: CDROM boot failure code : 0004
+00:00:09.458146 VMMDev: Guest Log: BIOS: Boot from CD-ROM failed
+00:00:09.459034 VMMDev: Guest Log: BIOS: Boot : bseqnr=3, bootseq=0002
+00:00:09.460579 VMMDev: Guest Log: BIOS: Booting from Hard Disk...
+00:00:09.811484 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000012df0000 w=1024 h=768 bpp=24 cbLine=0xC00 flags=0x0
+00:00:09.811600 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1024x768, Sending to async-handler
+00:00:09.811698 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1024x768
+00:00:09.811713 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1024x768
+00:00:09.811944 GUI: UIFrameBufferPrivate::performResize: Size=1024x768, Directly using source bitmap content
+00:00:14.872451 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:00:14.918492 GIM: HyperV: Guest OS reported ID 0x1040601011db1
+00:00:14.918513 GIM: HyperV: Open-source=false Vendor=0x1 OS=0x4 (Windows NT or derivative) Major=6 Minor=1 ServicePack=1 Build=7601
+00:00:14.918537 GIM: HyperV: Enabled hypercall page at 0x00000000006b1000
+00:00:14.918555 GIM: HyperV: Enabled TSC page at 0x00000000006b2000 - u64TscScale=0xf1a6e900000000 u64TscKHz=0x2961bf (2 711 999) Seq=1
+00:00:14.918567 TM: Switching TSC mode from 'Dynamic' to 'RealTscOffset'
+00:00:14.918801 APIC0: Switched mode to disabled
+00:00:16.455511 AHCI#0: Reset the HBA
+00:00:16.455536 VD#0: Cancelling all active requests
+00:00:16.465763 VMMDev: Guest Log: VBoxGuest: Windows version 6.1, build 7601
+00:00:16.470046 VMMDev: Guest Additions information report: Version 5.2.8 r121009 '5.2.8'
+00:00:16.470083 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00037000 (Windows 7, 32-bit)
+00:00:16.470171 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:16.470210 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:16.470223 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:16.470252 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:16.470257 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:16.470265 VMMDev: Guest reported fixed hypervisor window at 0008c400000 LB 0x800000 (rc=VINF_SUCCESS)
+00:00:16.470289 VMMDev: vmmDevReqHandler_HeartbeatConfigure: No change (fHeartbeatActive=false).
+00:00:16.470308 VMMDev: Heartbeat flatline timer set to trigger after 4 000 000 000 ns
+00:00:16.470405 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:16.470417 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:16.470424 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:16.470428 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:16.823464 AIOMgr: Async flushes not supported
+00:00:17.312736 VMMDev: Guest Log: VBoxMouse::DriverEntry: DriverEntry:
+00:00:17.340547 VMMDev: Guest Log: VBoxMP::DriverEntry: VBox XPDM Driver for Windows version 5.2.8r121009, 32 bit; Built Feb 26 2018 15:01:38
+00:00:17.612775 VMMDev: Guest Log: VBoxMP::VBoxDrvFindAdapter: using HGSMI
+00:00:17.730661 HDA: Codec reset
+00:00:17.730688 HDA: Reset
+00:00:17.749117 HDA: Codec reset
+00:00:17.749158 HDA: Reset
+00:00:17.773915 OHCI: Software reset
+00:00:17.774049 OHCI: USB Reset
+00:00:17.826736 OHCI: USB Operational
+00:00:17.895887 HDA: Codec reset
+00:00:18.478279 VMMDev: Guest Log: VBoxDisp[0]: VBVA enabled
+00:00:18.478344 VBVA: InfoScreen: [0] @0,0 1106x610, line 0x1148, BPP 32, flags 0x1
+00:00:18.478395 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000012df0000 w=1106 h=610 bpp=32 cbLine=0x1148 flags=0x1
+00:00:18.478459 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1106x610, Sending to async-handler
+00:00:18.478635 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1106x610
+00:00:18.478657 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1106x610
+00:00:18.479153 GUI: UIFrameBufferPrivate::performResize: Size=1106x610, Directly using source bitmap content
+00:00:19.579949 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:19.579986 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:19.588689 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:19.588711 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:19.588717 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:19.588721 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:19.707884 NAT: Link up
+00:00:19.729484 NAT: IPv6 not supported
+00:00:20.822546 NAT: DHCP offered IP address 10.0.2.15
+00:00:23.863433 NAT: DHCP offered IP address 10.0.2.15
+00:00:23.863883 NAT: DHCP offered IP address 10.0.2.15
+00:00:27.348539 NAT: DHCP offered IP address 10.0.2.15
+00:01:57.191812 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:01:57.191843 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:01:57.413999 VMMDev: Guest Additions capability report: (0x0 -> 0x1) seamless: yes, hostWindowMapping: no, graphics: no
+00:01:57.414254 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:01:57.414281 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:01:57.414292 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:01:57.414302 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:01:57.501791 VMMDev: Guest Additions capability report: (0x1 -> 0x5) seamless: yes, hostWindowMapping: no, graphics: yes
+00:01:57.501912 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:01:57.502001 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:01:57.502038 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:01:57.502058 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:01:57.502220 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:01:57.502247 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:01:57.669658 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:01:57.700136 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:00.434026 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:02:00.537189 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:01.308295 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:02:01.330868 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:02.102130 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:02:02.465864 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:02.515863 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:02:02.647846 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:06.473889 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:02:06.556227 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:07.838292 PIT: mode=2 count=0x4ad (1197) - 996.81 Hz (ch=0)
+00:02:07.920460 PIT: mode=2 count=0x2ead (11949) - 99.85 Hz (ch=0)
+00:02:11.411761 
+00:02:11.411763 !!! rtR3WinUnhandledXcptFilter caught an exception on thread 00000000000009ac!!!
+00:02:11.411780 
+00:02:11.411781 ExceptionCode=0xc0000005 ExceptionFlags=0x00000000 ExceptionAddress=00007ffa1c729e10
+00:02:11.411786 ExceptionInformation[0]=0000000000000001
+00:02:11.411791 ExceptionInformation[1]=000000003d44e000
+00:02:11.411794 
+00:02:11.411795 cs:rip=0033:00007ffa1c729e10
+00:02:11.411800 ss:rsp=002b:0000000007d0f480 rbp=0000000000000040
+00:02:11.411804 rax=0000000000000001 rcx=0000000000013db4 rdx=8000000900015000 rbx=0000000040000010
+00:02:11.411810 rsi=0000000040000010 rdi=0000000000013db5 rsp=0000000007d0f480 rbp=0000000000000040
+00:02:11.411814 r8 =0000000000000010 r9 =0000000000000190 r10=00000000001d1080 r11=0000000007d0f380
+00:02:11.411819 r12=0000000000000001 r13=00007ffa2b190000 r14=000000003d3fe930 r15=0000000008173c20
+00:02:11.411824 ds=002b es=002b fs=0053 gs=002b eflags=00010283
+00:02:11.411828 p1home=0000000007d0efc0 p2home=0000000003447d40 pe3home=0000000040000010
+00:02:11.411832 p4home=00007ffa62ec80e2 p5home=000000000356a4c0 pe6home=0000000003527bf0
+00:02:11.411837    LastBranchToRip=0000000000000000    LastBranchFromRip=0000000000000000
+00:02:11.411841 LastExceptionToRip=0000000000000000 LastExceptionFromRip=0000000000000000
+00:02:11.411847 
+00:02:11.411847 Stack 0000000007d0e3a0, dumping 0x1c60 bytes (low=0000000007c10000, high=0000000007d10000)
+00:02:11.411853 0000000007d0e3a0 0000: a0 e3 d0 07 00 00 00 00-73 74 61 63 6b 6d 61 72 ........stackmar
+00:02:11.411858 0000000007d0e3b0 0010: 6b 65 72 00 fa 7f 00 00-80 00 00 00 00 00 00 01 ker.............
+00:02:11.411861 0000000007d0e3c0 0020: 00 00 59 00 00 00 00 00-80 e5 d0 07 00 00 00 00 ..Y.............
+00:02:11.411863 0000000007d0e3d0 0030: b0 e6 d0 07 00 00 00 00-00 f9 d0 07 00 00 00 00 ................
+00:02:11.411865 0000000007d0e3e0 0040: 01 00 00 00 00 00 00 00-e0 8b f2 20 fa 7f 00 00 ........... ....
+00:02:11.411867 0000000007d0e3f0 0050: 00 00 00 00 00 00 00 00-00 f9 d0 07 00 00 00 00 ................
+00:02:11.411869 0000000007d0e400 0060: 00 00 00 00 00 00 00 00-a0 91 c1 5f fa 7f 00 00 ..........._....
+00:02:11.411871 0000000007d0e410 0070: 80 e5 d0 07 00 00 00 00-10 9e 72 1c fa 7f 00 00 ..........r.....
+00:02:11.411873 0000000007d0e420 0080: 00 00 d1 07 00 00 00 00-00 00 c1 07 00 00 00 00 ................
+00:02:11.411876 0000000007d0e430 0090: 50 01 a1 02 00 00 00 00-99 cd e8 20 fa 7f 00 00 P.......... ....
+00:02:11.411878 0000000007d0e440 00a0: 04 00 00 00 06 00 00 00-30 00 00 00 01 00 00 00 ........0.......
+00:02:11.411880 0000000007d0e450 00b0: 00 00 a1 02 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411882 0000000007d0e460 00c0: 30 16 00 00 00 00 00 00-d0 16 5a 63 fa 7f 00 00 0.........Zc....
+00:02:11.411884 0000000007d0e470 00d0: 80 e5 d0 07 00 00 00 00-99 cd e8 20 fa 7f 00 00 ........... ....
+00:02:11.411886 0000000007d0e480 00e0: aa 02 00 00 fa aa 00 00-72 02 00 70 00 00 00 00 ........r..p....
+00:02:11.411888 0000000007d0e490 00f0: 68 34 19 21 fa 7f 00 00-72 02 00 70 00 00 00 00 h4.!....r..p....
+00:02:11.411890 0000000007d0e4a0 0100: b1 5e f4 80 fa aa 00 00-02 00 00 02 00 00 00 00 .^..............
+00:02:11.411892 0000000007d0e4b0 0110: fe ff ff ff 00 00 00 00-da 20 81 5b 00 00 00 00 ......... .[....
+00:02:11.411894 0000000007d0e4c0 0120: 00 00 00 00 00 00 00 00-dc 06 8e 2d fa 7f 00 00 ...........-....
+00:02:11.411896 0000000007d0e4d0 0130: 79 e5 d0 07 00 00 00 00-87 f3 5c 63 fa 7f 00 00 y.........\c....
+00:02:11.411898 0000000007d0e4e0 0140: 05 00 00 c0 00 00 00 00-7e 1d 86 5b 00 00 00 00 ........~..[....
+00:02:11.411900 0000000007d0e4f0 0150: 88 1c bf 15 6a f6 00 00-19 fa 0e 00 00 00 00 00 ....j...........
+00:02:11.411903 0000000007d0e500 0160: 00 00 56 63 fa 7f 00 00-00 f9 d0 07 00 00 00 00 ..Vc............
+00:02:11.411905 0000000007d0e510 0170: f0 f1 d0 07 00 00 00 00-88 89 60 63 fa 7f 00 00 ..........`c....
+00:02:11.411907 0000000007d0e520 0180: 60 fc 88 5b 00 00 00 00-30 e6 69 63 fa 7f 00 00 `..[....0.ic....
+00:02:11.411909 0000000007d0e530 0190: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411911 0000000007d0e540 01a0: 61 f0 06 00 00 00 00 00-d6 13 5f 63 fa 7f 00 00 a........._c....
+00:02:11.411913 0000000007d0e550 01b0: 00 00 aa 03 00 00 00 00-03 00 80 00 00 00 00 00 ................
+00:02:11.411915 0000000007d0e560 01c0: f0 f1 d0 07 00 00 00 00-a0 f8 d0 07 00 00 00 00 ................
+00:02:11.411917 0000000007d0e570 01d0: e4 1f 23 63 fa 7f 00 00-e4 1f 23 63 fa 7f 00 00 ..#c......#c....
+00:02:11.411919 0000000007d0e580 01e0: f0 f1 d0 07 00 00 00 00-00 ed d0 07 00 00 00 00 ................
+00:02:11.411921 0000000007d0e590 01f0: f0 f1 d0 07 00 00 00 00-00 f9 d0 07 00 00 00 00 ................
+00:02:11.411923 0000000007d0e5a0 0200: 00 00 56 63 fa 7f 00 00-61 f0 5c 63 fa 7f 00 00 ..Vc....a.\c....
+00:02:11.411925 0000000007d0e5b0 0210: 00 00 00 00 00 00 00 00-bd 50 60 63 fa 7f 00 00 .........P`c....
+00:02:11.411928 0000000007d0e5c0 0220: 00 00 00 00 00 00 00 00-f0 e6 d0 07 00 00 00 00 ................
+00:02:11.411930 0000000007d0e5d0 0230: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411932 0000000007d0e5e0 0240: b0 e6 d0 07 00 00 00 00-78 d2 57 63 fa 7f 00 00 ........x.Wc....
+00:02:11.411934 0000000007d0e5f0 0250: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411936 0000000007d0e600 0260: 00 d1 43 03 00 00 00 00-02 00 00 00 fa 7f 00 00 ..C.............
+00:02:11.411938 0000000007d0e610 0270: a8 46 55 03 00 00 00 00-00 00 00 00 00 00 00 00 .FU.............
+00:02:11.411940 0000000007d0e620 0280: d0 89 54 03 00 00 00 00-01 00 00 00 00 00 00 00 ..T.............
+00:02:11.411942 0000000007d0e630 0290: 00 9a af 02 00 00 00 00-84 49 6c 63 fa 7f 00 00 .........Ilc....
+00:02:11.411944 0000000007d0e640 02a0: 00 00 00 00 00 00 00 00-00 00 56 63 fa 7f 00 00 ..........Vc....
+00:02:11.411946 0000000007d0e650 02b0: 00 f9 d0 07 00 00 00 00-30 e6 69 63 fa 7f 00 00 ........0.ic....
+00:02:11.411948 0000000007d0e660 02c0: 00 f9 d0 07 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411950 0000000007d0e670 02d0: 10 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411952 0000000007d0e680 02e0: d0 eb d0 07 00 00 00 00-f0 f1 d0 07 00 00 00 00 ................
+00:02:11.411954 0000000007d0e690 02f0: 00 ed d0 07 00 00 00 00-00 60 d0 07 00 00 00 00 .........`......
+00:02:11.411956 0000000007d0e6a0 0300: 00 00 d1 07 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411958 0000000007d0e6b0 0310: 61 f0 5c 63 fa 7f 00 00-00 00 56 63 fa 7f 00 00 a.\c......Vc....
+00:02:11.411960 0000000007d0e6c0 0320: 84 49 6c 63 fa 7f 00 00-00 f9 d0 07 00 00 00 00 .Ilc............
+00:02:11.411962 0000000007d0e6d0 0330: 00 00 00 00 00 00 00 00-00 e7 d0 07 00 00 00 00 ................
+00:02:11.411964 0000000007d0e6e0 0340: 40 13 5f 63 fa 7f 00 00-30 e6 69 63 fa 7f 00 00 @._c....0.ic....
+00:02:11.411966 0000000007d0e6f0 0350: d0 eb d0 07 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411968 0000000007d0e700 0360: 00 00 00 00 00 00 00 00-7a a4 e8 62 fa 7f 00 00 ........z..b....
+00:02:11.411970 0000000007d0e710 0370: 40 7d 44 03 00 00 00 00-f0 7b 52 03 00 00 00 00 @}D......{R.....
+00:02:11.411972 0000000007d0e720 0380: 40 7d 44 03 00 00 00 00-00 00 00 00 00 00 00 00 @}D.............
+00:02:11.411974 0000000007d0e730 0390: 0f 00 10 00 a0 1f 00 00-33 00 16 60 fa 7f 00 00 ........3..`....
+00:02:11.411977 0000000007d0e740 03a0: 03 00 2b 00 83 02 01 00-00 00 00 00 00 00 00 00 ..+.............
+00:02:11.411979 0000000007d0e750 03b0: 90 c4 e8 20 fa 7f 00 00-00 00 00 00 00 00 00 00 ... ............
+00:02:11.411981 0000000007d0e760 03c0: 18 00 00 00 00 00 00 00-f3 c9 16 60 fa 7f 00 00 ...........`....
+00:02:11.411983 0000000007d0e770 03d0: f0 e7 d0 07 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411985 0000000007d0e780 03e0: 00 00 00 00 00 00 00 00-00 e0 3a 00 00 00 00 00 ..........:.....
+00:02:11.411987 0000000007d0e790 03f0: 00 00 00 00 00 00 00 00-50 f9 d0 07 00 00 00 00 ........P.......
+00:02:11.411989 0000000007d0e7a0 0400: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411991 0000000007d0e7b0 0410: 00 00 00 00 00 00 00 00-0d 1b f1 62 fa 7f 00 00 ...........b....
+00:02:11.411993 0000000007d0e7c0 0420: 02 00 00 00 00 00 00 00-00 02 00 00 00 00 00 00 ................
+00:02:11.411995 0000000007d0e7d0 0430: 00 e8 d0 07 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411997 0000000007d0e7e0 0440: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.411999 0000000007d0e7f0 0450: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412001 0000000007d0e800 0460: 7f 02 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412003 0000000007d0e810 0470: 00 00 00 00 00 00 00 00-a0 1f 00 00 ff ff 00 00 ................
+00:02:11.412005 0000000007d0e820 0480: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412007 **************** ****  <ditto x 7>
+00:02:11.412008 0000000007d0e8a0 0500: 48 ee d0 07 00 00 00 00-c0 9a af 02 00 00 00 00 H...............
+00:02:11.412010 0000000007d0e8b0 0510: 00 00 00 00 00 00 00 00-48 00 00 00 00 00 00 00 ........H.......
+00:02:11.412012 0000000007d0e8c0 0520: d0 e9 d0 07 00 00 00 00-ea 91 ed 62 fa 7f 00 00 ...........b....
+00:02:11.412014 0000000007d0e8d0 0530: 40 7d 44 03 00 00 00 00-ed 6f ed 62 fa 7f 00 00 @}D......o.b....
+00:02:11.412016 0000000007d0e8e0 0540: 00 00 00 00 00 00 00 00-f0 7b 52 03 00 00 00 00 .........{R.....
+00:02:11.412018 0000000007d0e8f0 0550: 00 00 00 00 00 00 00 00-40 7d 44 03 00 00 00 00 ........@}D.....
+00:02:11.412020 0000000007d0e900 0560: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412022 **************** ****  <ditto x 9>
+00:02:11.412023 0000000007d0e9a0 0600: 00 00 00 00 00 00 00 00-c8 7d 44 03 00 00 00 00 .........}D.....
+00:02:11.412025 0000000007d0e9b0 0610: 5c 7d 44 03 00 00 00 00-70 eb d0 07 00 00 00 00 \}D.....p.......
+00:02:11.412027 0000000007d0e9c0 0620: 40 44 55 03 00 00 00 00-f0 e1 d6 62 fa 7f 00 00 @DU........b....
+00:02:11.412029 0000000007d0e9d0 0630: 01 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412031 0000000007d0e9e0 0640: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412033 0000000007d0e9f0 0650: 00 00 00 00 00 00 00 00-38 47 55 03 00 00 00 00 ........8GU.....
+00:02:11.412035 0000000007d0ea00 0660: 01 00 00 00 00 00 00 00-8e 94 cd 85 1f a7 89 42 ...............B
+00:02:11.412037 0000000007d0ea10 0670: 28 1e 0c a7 ad 48 cd 89-f0 7b 52 03 00 00 00 00 (....H...{R.....
+00:02:11.412039 0000000007d0ea20 0680: b0 f1 d0 07 00 00 00 00-01 00 00 00 00 00 00 00 ................
+00:02:11.412041 0000000007d0ea30 0690: 00 4b 50 03 00 00 00 00-00 00 00 00 fa 7f 00 00 .KP.............
+00:02:11.412043 0000000007d0ea40 06a0: 05 00 07 00 fa 7f 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412045 0000000007d0ea50 06b0: c0 a4 56 03 00 00 00 00-40 7d 44 03 00 00 00 00 ..V.....@}D.....
+00:02:11.412047 0000000007d0ea60 06c0: 60 00 00 00 00 00 00 00-f6 0b ed 62 fa 7f 00 00 `..........b....
+00:02:11.412049 0000000007d0ea70 06d0: c8 7d 44 03 00 00 00 00-5c 7d 44 03 00 00 00 00 .}D.....\}D.....
+00:02:11.412051 0000000007d0ea80 06e0: 70 eb d0 07 00 00 00 00-75 55 d6 62 fa 7f 00 00 p.......uU.b....
+00:02:11.412053 0000000007d0ea90 06f0: 00 00 00 00 00 00 00 00-40 47 55 03 00 00 00 00 ........@GU.....
+00:02:11.412055 0000000007d0eaa0 0700: 00 00 00 00 00 00 00 00-68 45 55 03 00 00 00 00 ........hEU.....
+00:02:11.412057 0000000007d0eab0 0710: 40 44 55 03 00 00 00 00-00 00 00 00 00 00 00 00 @DU.............
+00:02:11.412059 0000000007d0eac0 0720: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412061 0000000007d0ead0 0730: 01 00 00 00 00 00 00 00-00 eb d0 07 00 00 00 00 ................
+00:02:11.412063 0000000007d0eae0 0740: 04 ed d0 07 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412065 0000000007d0eaf0 0750: 00 00 00 00 01 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412067 0000000007d0eb00 0760: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412069 0000000007d0eb10 0770: 00 4b 50 03 00 00 00 00-00 00 00 00 00 00 00 00 .KP.............
+00:02:11.412071 0000000007d0eb20 0780: d0 89 54 03 00 00 00 00-a3 dc 17 3a ed 41 00 00 ..T........:.A..
+00:02:11.412073 0000000007d0eb30 0790: b0 f1 d0 07 00 00 00 00-b8 0c 45 03 00 00 00 00 ..........E.....
+00:02:11.412075 0000000007d0eb40 07a0: 00 00 00 00 00 00 00 00-b0 87 ed 62 fa 7f 00 00 ...........b....
+00:02:11.412077 0000000007d0eb50 07b0: 48 ee d0 07 00 00 00 00-c0 a4 56 03 00 00 00 00 H.........V.....
+00:02:11.412079 0000000007d0eb60 07c0: 70 ec d0 07 00 00 00 00-12 7e ed 62 fa 7f 00 00 p........~.b....
+00:02:11.412081 0000000007d0eb70 07d0: 10 ed d0 07 00 00 00 00-1f 06 d7 62 fa 7f 00 00 ...........b....
+00:02:11.412083 0000000007d0eb80 07e0: 00 00 00 00 00 00 00 00-f0 7b 52 03 00 00 00 00 .........{R.....
+00:02:11.412085 0000000007d0eb90 07f0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412087 0000000007d0eba0 0800: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412089 0000000007d0ebb0 0810: 00 00 00 00 00 00 00 00-68 9e 09 63 fa 7f 00 00 ........h..c....
+00:02:11.412091 0000000007d0ebc0 0820: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412093 0000000007d0ebd0 0830: 0c 00 00 00 00 00 00 00-10 9e 72 1c fa 7f 00 00 ..........r.....
+00:02:11.412095 0000000007d0ebe0 0840: fc 5a 24 2b fa 7f 00 00-00 00 21 1c fa 7f 00 00 .Z$+......!.....
+00:02:11.412097 0000000007d0ebf0 0850: b8 ee 06 1d fa 7f 00 00-00 00 19 2b fa 7f 00 00 ...........+....
+00:02:11.412099 0000000007d0ec00 0860: 70 a8 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 p.)+.......+....
+00:02:11.412101 0000000007d0ec10 0870: 3c d6 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 <.)+.......+....
+00:02:11.412103 0000000007d0ec20 0880: 54 d6 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 T.)+.......+....
+00:02:11.412106 0000000007d0ec30 0890: 60 94 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 `.)+.......+....
+00:02:11.412108 0000000007d0ec40 08a0: 6c 94 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 l.)+.......+....
+00:02:11.412110 0000000007d0ec50 08b0: 78 94 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 x.)+.......+....
+00:02:11.412112 0000000007d0ec60 08c0: ac 72 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 .r)+.......+....
+00:02:11.412114 0000000007d0ec70 08d0: c4 72 29 2b fa 7f 00 00-00 00 19 2b fa 7f 00 00 .r)+.......+....
+00:02:11.412116 0000000007d0ec80 08e0: a8 70 29 2b fa 7f 00 00-00 00 8a 1f fa 7f 00 00 .p)+............
+00:02:11.412118 0000000007d0ec90 08f0: 20 a5 d8 1f fa 7f 00 00-00 00 8a 1f fa 7f 00 00  ...............
+00:02:11.412120 0000000007d0eca0 0900: 70 a3 d8 1f fa 7f 00 00-67 f3 ec 62 fa 7f 00 00 p.......g..b....
+00:02:11.412122 0000000007d0ecb0 0910: 31 5f f4 80 fa aa 00 00-00 00 00 00 00 00 00 00 1_..............
+00:02:11.412124 0000000007d0ecc0 0920: 20 3c 17 08 00 00 00 00-30 e9 3f 3d 00 00 00 00  <......0.?=....
+00:02:11.412126 0000000007d0ecd0 0930: 00 00 19 2b fa 7f 00 00-01 00 00 00 00 00 00 00 ...+............
+00:02:11.412128 0000000007d0ece0 0940: b5 3d 01 00 00 00 00 00-10 00 00 40 00 00 00 00 .=.........@....
+00:02:11.412130 0000000007d0ecf0 0950: 40 00 00 00 00 00 00 00-ee 3f 60 63 fa 7f 00 00 @........?`c....
+00:02:11.412132 0000000007d0ed00 0960: c0 ef d0 07 00 00 00 00-40 7d 44 03 00 00 00 00 ........@}D.....
+00:02:11.412134 0000000007d0ed10 0970: 10 00 00 40 00 00 00 00-e2 80 ec 62 fa 7f 00 00 ...@.......b....
+00:02:11.412136 0000000007d0ed20 0980: c0 a4 56 03 00 00 00 00-f0 7b 52 03 00 00 00 00 ..V......{R.....
+00:02:11.412138 0000000007d0ed30 0990: 5f 00 10 00 a0 1f 00 00-33 00 2b 00 2b 00 53 00 _.......3.+.+.S.
+00:02:11.412140 0000000007d0ed40 09a0: 2b 00 2b 00 83 02 01 00-00 00 00 00 00 00 00 00 +.+.............
+00:02:11.412142 0000000007d0ed50 09b0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412144 0000000007d0ed60 09c0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412146 0000000007d0ed70 09d0: 00 00 00 00 00 00 00 00-01 00 00 00 00 00 00 00 ................
+00:02:11.412148 0000000007d0ed80 09e0: b4 3d 01 00 00 00 00 00-00 50 01 00 09 00 00 80 .=.......P......
+00:02:11.412150 0000000007d0ed90 09f0: 10 00 00 40 00 00 00 00-80 f4 d0 07 00 00 00 00 ...@............
+00:02:11.412152 0000000007d0eda0 0a00: 40 00 00 00 00 00 00 00-10 00 00 40 00 00 00 00 @..........@....
+00:02:11.412154 0000000007d0edb0 0a10: b5 3d 01 00 00 00 00 00-10 00 00 00 00 00 00 00 .=..............
+00:02:11.412156 0000000007d0edc0 0a20: 90 01 00 00 00 00 00 00-80 10 1d 00 00 00 00 00 ................
+00:02:11.412158 0000000007d0edd0 0a30: 80 f3 d0 07 00 00 00 00-01 00 00 00 00 00 00 00 ................
+00:02:11.412160 0000000007d0ede0 0a40: 00 00 19 2b fa 7f 00 00-30 e9 3f 3d 00 00 00 00 ...+....0.?=....
+00:02:11.412162 0000000007d0edf0 0a50: 20 3c 17 08 00 00 00 00-10 9e 72 1c fa 7f 00 00  <........r.....
+00:02:11.412164 0000000007d0ee00 0a60: 7f 02 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412166 0000000007d0ee10 0a70: 00 00 00 00 00 00 00 00-a0 1f 00 00 ff ff 00 00 ................
+00:02:11.412168 0000000007d0ee20 0a80: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412170 **************** ****  <ditto x 23>
+00:02:11.412171 0000000007d0efa0 0c00: 90 72 52 03 00 00 00 00-02 00 00 00 00 00 00 00 .rR.............
+00:02:11.412173 0000000007d0efb0 0c10: 00 00 00 00 00 00 00 00-a4 98 58 63 fa 7f 00 00 ..........Xc....
+00:02:11.412175 0000000007d0efc0 0c20: b0 f1 d0 07 00 00 00 00-e8 9a af 02 00 00 00 00 ................
+00:02:11.412177 0000000007d0efd0 0c30: e0 9a af 02 00 00 00 00-08 9b af 02 00 00 00 00 ................
+00:02:11.412179 0000000007d0efe0 0c40: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412181 0000000007d0eff0 0c50: 00 00 00 00 00 00 00 00-01 00 00 00 00 00 00 00 ................
+00:02:11.412183 0000000007d0f000 0c60: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412185 **************** ****  <ditto x 2>
+00:02:11.412186 0000000007d0f030 0c90: 00 00 00 00 00 00 00 00-b6 6c 2a 32 fa 7f 00 00 .........l*2....
+00:02:11.412188 0000000007d0f040 0ca0: b0 6c 2a 32 fa 7f 00 00-20 f6 d0 07 00 00 00 00 .l*2.... .......
+00:02:11.412190 0000000007d0f050 0cb0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412192 0000000007d0f060 0cc0: 00 00 00 00 00 00 00 00-20 d0 2d 32 fa 7f 00 00 ........ .-2....
+00:02:11.412194 0000000007d0f070 0cd0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412196 0000000007d0f080 0ce0: 00 03 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412198 0000000007d0f090 0cf0: c0 33 66 00 00 00 00 00-00 00 00 00 00 00 00 00 .3f.............
+00:02:11.412200 0000000007d0f0a0 0d00: 00 00 66 00 00 00 00 00-00 e0 3a 00 00 00 00 00 ..f.......:.....
+00:02:11.412202 0000000007d0f0b0 0d10: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412203 0000000007d0f0c0 0d20: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412205 0000000007d0f0d0 0d30: c0 33 66 00 00 00 00 00-20 0d 66 00 00 00 00 00 .3f..... .f.....
+00:02:11.412207 0000000007d0f0e0 0d40: 08 00 00 00 00 00 00 00-20 00 00 00 00 00 00 00 ........ .......
+00:02:11.412209 0000000007d0f0f0 0d50: 00 00 66 00 00 00 00 00-00 00 00 00 00 00 00 00 ..f.............
+00:02:11.412211 0000000007d0f100 0d60: 00 00 00 00 00 00 00 00-e0 f4 d0 07 00 00 00 00 ................
+00:02:11.412213 0000000007d0f110 0d70: 00 00 00 00 00 00 00 00-02 00 00 00 00 00 00 00 ................
+00:02:11.412215 0000000007d0f120 0d80: 20 00 00 00 00 00 00 00-d0 16 5a 63 fa 7f 00 00  .........Zc....
+00:02:11.412217 0000000007d0f130 0d90: 00 00 aa 03 00 00 00 00-d2 89 58 63 fa 7f 00 00 ..........Xc....
+00:02:11.412219 0000000007d0f140 0da0: 40 00 00 00 00 00 00 00-02 00 00 00 00 00 00 00 @...............
+00:02:11.412221 0000000007d0f150 0db0: 18 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412224 0000000007d0f160 0dc0: f1 4b f4 80 fa aa 00 00-02 00 00 00 00 00 00 00 .K..............
+00:02:11.412226 0000000007d0f170 0dd0: 20 00 00 00 00 00 00 00-fa 52 b4 5f fa 7f 00 00  ........R._....
+00:02:11.412228 0000000007d0f180 0de0: 00 00 00 00 00 00 00 00-d2 89 58 63 fa 7f 00 00 ..........Xc....
+00:02:11.412230 0000000007d0f190 0df0: 40 00 00 00 00 00 00 00-02 00 00 00 00 00 00 00 @...............
+00:02:11.412232 0000000007d0f1a0 0e00: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412234 **************** ****  <ditto x 2>
+00:02:11.412234 0000000007d0f1d0 0e30: 30 fb ff ff 80 07 00 00-30 fb ff ff d0 04 00 00 0.......0.......
+00:02:11.412236 0000000007d0f1e0 0e40: f0 00 00 00 c0 01 00 00-9c bb 58 63 fa 7f 00 00 ..........Xc....
+00:02:11.412238 0000000007d0f1f0 0e50: 05 00 00 c0 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412240 0000000007d0f200 0e60: 10 9e 72 1c fa 7f 00 00-02 00 00 00 00 00 00 00 ..r.............
+00:02:11.412242 0000000007d0f210 0e70: 01 00 00 00 00 00 00 00-00 e0 44 3d 00 00 00 00 ..........D=....
+00:02:11.412244 0000000007d0f220 0e80: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412246 **************** ****  <ditto x 5>
+00:02:11.412247 0000000007d0f280 0ee0: 00 00 00 00 00 00 00 00-c0 0c 1d 00 00 00 00 00 ................
+00:02:11.412249 0000000007d0f290 0ef0: 10 9e 72 1c fa 7f 00 00-20 00 00 00 00 00 00 00 ..r..... .......
+00:02:11.412251 0000000007d0f2a0 0f00: 8d 02 00 00 00 00 00 00-80 f4 d0 07 00 00 00 00 ................
+00:02:11.412253 0000000007d0f2b0 0f10: 00 00 00 00 00 00 00 00-00 00 19 2b fa 7f 00 00 ...........+....
+00:02:11.412255 0000000007d0f2c0 0f20: 00 00 00 00 00 00 00 00-1c 00 00 00 00 00 00 80 ................
+00:02:11.412257 0000000007d0f2d0 0f30: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412259 **************** ****  <ditto x 2>
+00:02:11.412259 0000000007d0f300 0f60: 10 00 00 00 00 00 00 00-00 00 00 00 fa 7f 00 00 ................
+00:02:11.412261 0000000007d0f310 0f70: 08 42 aa 03 00 00 00 00-8d 02 00 00 00 00 00 00 .B..............
+00:02:11.412263 0000000007d0f320 0f80: a0 51 07 08 00 00 00 00-02 00 00 00 00 00 00 00 .Q..............
+00:02:11.412265 0000000007d0f330 0f90: 1c 00 00 00 00 00 00 00-50 00 00 00 00 00 00 00 ........P.......
+00:02:11.412267 0000000007d0f340 0fa0: 00 33 66 00 00 00 00 00-00 00 00 00 00 00 00 00 .3f.............
+00:02:11.412269 0000000007d0f350 0fb0: 00 00 00 00 00 00 00 00-00 00 19 2b fa 7f 00 00 ...........+....
+00:02:11.412271 0000000007d0f360 0fc0: 00 00 00 00 00 00 00 00-05 00 00 00 00 00 00 00 ................
+00:02:11.412273 0000000007d0f370 0fd0: 50 00 00 00 00 00 00 00-40 00 00 00 00 00 00 00 P.......@.......
+00:02:11.412275 0000000007d0f380 0fe0: 20 3c 17 08 00 00 00 00-30 e9 3f 3d 00 00 00 00  <......0.?=....
+00:02:11.412279 0000000007d0f390 0ff0: 00 00 19 2b fa 7f 00 00-01 00 00 00 00 00 00 00 ...+............
+00:02:11.412281 0000000007d0f3a0 1000: 11 00 00 40 00 00 00 00-c8 45 7c 1c fa 7f 00 00 ...@.....E|.....
+00:02:11.412283 0000000007d0f3b0 1010: 10 00 00 00 00 00 00 00-10 00 00 00 00 00 00 00 ................
+00:02:11.412285 0000000007d0f3c0 1020: 40 00 00 00 00 00 00 00-00 6e 68 08 00 00 00 00 @........nh.....
+00:02:11.412287 0000000007d0f3d0 1030: 10 00 00 00 00 00 00 00-2f c4 21 1c fa 7f 00 00 ......../.!.....
+00:02:11.412289 0000000007d0f3e0 1040: 00 00 aa 03 00 00 00 00-d2 89 58 63 fa 7f 00 00 ..........Xc....
+00:02:11.412291 0000000007d0f3f0 1050: 40 00 00 00 00 00 00 00-01 00 00 00 fa 7f 00 00 @...............
+00:02:11.412293 0000000007d0f400 1060: 00 00 00 00 00 00 00 00-b2 0a 79 1c fa 7f 00 00 ..........y.....
+00:02:11.412296 0000000007d0f410 1070: 68 f4 d0 07 00 00 00 00-02 00 00 00 00 00 00 00 h...............
+00:02:11.412298 0000000007d0f420 1080: 20 3c 17 08 00 00 00 00-40 5a 0b 06 00 00 00 00  <......@Z......
+00:02:11.412300 0000000007d0f430 1090: fe ff ff ff ff ff ff ff-01 00 00 00 00 00 00 00 ................
+00:02:11.412302 0000000007d0f440 10a0: 40 00 00 00 00 00 00 00-0a 93 71 1c fa 7f 00 00 @.........q.....
+00:02:11.412304 0000000007d0f450 10b0: 40 00 00 00 00 00 00 00-40 00 00 00 00 00 00 00 @.......@.......
+00:02:11.412306 0000000007d0f460 10c0: 40 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 @...............
+00:02:11.412308 0000000007d0f470 10d0: 40 60 64 08 00 00 00 00-ea 9d 72 1c fa 7f 00 00 @`d.......r.....
+00:02:11.412310 0000000007d0f480 10e0: 00 6e 68 08 00 00 00 00-10 00 00 40 00 00 00 00 .nh........@....
+00:02:11.412312 0000000007d0f490 10f0: 30 5e 0b 06 00 00 00 00-01 00 00 00 00 00 00 00 0^..............
+00:02:11.412314 0000000007d0f4a0 1100: 40 5a 0b 06 00 00 00 00-db 9a 1b 2b fa 7f 00 00 @Z.........+....
+00:02:11.412316 0000000007d0f4b0 1110: 10 00 00 40 00 00 00 00-30 e9 3f 3d 00 00 00 00 ...@....0.?=....
+00:02:11.412318 0000000007d0f4c0 1120: 90 f9 28 2b fa 7f 00 00-30 5e 0b 06 00 00 00 00 ..(+....0^......
+00:02:11.412320 0000000007d0f4d0 1130: 90 f9 28 2b fa 7f 00 00-e7 1d 24 2b fa 7f 00 00 ..(+......$+....
+00:02:11.412322 0000000007d0f4e0 1140: 10 00 00 40 00 00 00 00-10 00 00 40 00 00 00 00 ...@.......@....
+00:02:11.412324 0000000007d0f4f0 1150: 3f 5a 0b 06 00 00 00 00-00 00 00 00 00 00 00 00 ?Z..............
+00:02:11.412326 0000000007d0f500 1160: 90 f9 28 2b fa 7f 00 00-24 c8 24 2b fa 7f 00 00 ..(+....$.$+....
+00:02:11.412328 0000000007d0f510 1170: 20 52 29 2b fa 7f 00 00-00 00 8a 1f fa 7f 00 00  R)+............
+00:02:11.412330 0000000007d0f520 1180: 00 00 00 00 00 00 00 00-70 5a c7 03 00 00 00 00 ........pZ......
+00:02:11.412332 0000000007d0f530 1190: 90 f9 28 2b fa 7f 00 00-d2 5a 24 2b fa 7f 00 00 ..(+.....Z$+....
+00:02:11.412334 0000000007d0f540 11a0: 40 5a 0b 06 00 00 00 00-94 8d 85 5b 00 00 00 00 @Z.........[....
+00:02:11.412336 0000000007d0f550 11b0: 00 00 00 00 00 00 00 00-00 04 00 00 00 00 00 00 ................
+00:02:11.412338 0000000007d0f560 11c0: 10 e8 03 00 00 00 00 00-8b 7d 8c 2d fa 7f 00 00 .........}.-....
+00:02:11.412340 0000000007d0f570 11d0: 00 00 00 00 00 00 00 00-6f 60 f2 20 fa 7f 00 00 ........o`. ....
+00:02:11.412343 0000000007d0f580 11e0: a8 f5 d0 07 00 00 00 00-ff ff ff ff 00 00 00 00 ................
+00:02:11.412345 0000000007d0f590 11f0: 00 04 00 00 00 00 00 00-70 5a c7 03 00 00 00 00 ........pZ......
+00:02:11.412347 0000000007d0f5a0 1200: 30 5a 0b 06 00 00 00 00-fe dc 1a 2b fa 7f 00 00 0Z.........+....
+00:02:11.412349 0000000007d0f5b0 1210: 30 5e 0b 06 00 00 00 00-00 2f 5d 3d 00 00 00 00 0^......./]=....
+00:02:11.412351 0000000007d0f5c0 1220: 00 00 00 00 00 00 00 00-01 4c 47 77 00 00 00 00 .........LGw....
+00:02:11.412353 0000000007d0f5d0 1230: 90 f9 28 2b fa 7f 00 00-09 90 8c 2d fa 7f 00 00 ..(+.......-....
+00:02:11.412355 0000000007d0f5e0 1240: 20 3c 17 08 00 00 00 00-00 00 8a 1f fa 7f 00 00  <..............
+00:02:11.412357 0000000007d0f5f0 1250: 11 00 00 80 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412359 0000000007d0f600 1260: 00 04 00 00 00 00 00 00-8e de 1a 2b fa 7f 00 00 ...........+....
+00:02:11.412361 0000000007d0f610 1270: 70 5a c7 03 00 00 00 00-00 00 00 00 00 00 00 00 pZ..............
+00:02:11.412363 0000000007d0f620 1280: 50 83 f8 05 00 00 00 00-50 83 f8 05 00 00 00 00 P.......P.......
+00:02:11.412365 0000000007d0f630 1290: 00 00 00 00 00 00 00 00-01 00 00 00 00 00 00 00 ................
+00:02:11.412367 0000000007d0f640 12a0: 30 5a 0b 06 00 00 00 00-98 df 1a 2b fa 7f 00 00 0Z.........+....
+00:02:11.412369 0000000007d0f650 12b0: f0 2e 5d 3d 00 00 00 00-e0 74 50 08 00 00 00 00 ..]=.....tP.....
+00:02:11.412371 0000000007d0f660 12c0: 00 04 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412373 0000000007d0f670 12d0: e0 74 50 08 00 00 00 00-26 44 19 2b fa 7f 00 00 .tP.....&D.+....
+00:02:11.412375 0000000007d0f680 12e0: 70 00 00 00 00 00 00 00-ff ff ff ff ff ff ff ff p...............
+00:02:11.412377 0000000007d0f690 12f0: ff ff ff ff ff ff ff ff-cf 77 ea 20 fa 7f 00 00 .........w. ....
+00:02:11.412379 0000000007d0f6a0 1300: 2d 3c b4 5f fa 7f 00 00-ba 51 f3 20 fa 7f 00 00 -<._.....Q. ....
+00:02:11.412381 0000000007d0f6b0 1310: e0 74 50 08 00 00 00 00-0e 45 19 2b fa 7f 00 00 .tP......E.+....
+00:02:11.412383 0000000007d0f6c0 1320: 00 00 00 00 00 00 00 00-d3 40 f3 20 fa 7f 00 00 .........@. ....
+00:02:11.412385 0000000007d0f6d0 1330: 50 00 00 00 00 00 00 00-ba 51 f3 20 fa 7f 00 00 P........Q. ....
+00:02:11.412387 0000000007d0f6e0 1340: 01 00 00 00 00 00 00 00-bc 0c 00 00 00 00 00 00 ................
+00:02:11.412389 0000000007d0f6f0 1350: 26 00 00 00 00 00 00 00-71 17 19 2b fa 7f 00 00 &.......q..+....
+00:02:11.412391 0000000007d0f700 1360: 00 00 00 00 00 00 00 00-26 00 00 00 00 00 00 00 ........&.......
+00:02:11.412393 0000000007d0f710 1370: e0 1d c0 03 00 00 00 00-e0 74 50 08 00 00 00 00 .........tP.....
+00:02:11.412395 0000000007d0f720 1380: c0 1e c0 03 00 00 00 00-a0 40 13 06 00 00 00 00 .........@......
+00:02:11.412397 0000000007d0f730 1390: 00 00 00 00 00 00 00 00-bd e9 98 1f fa 7f 00 00 ................
+00:02:11.412399 0000000007d0f740 13a0: 00 00 8a 1f fa 7f 00 00-11 00 00 80 00 00 00 00 ................
+00:02:11.412401 0000000007d0f750 13b0: 00 00 00 00 00 00 00 00-a0 40 13 06 00 00 00 00 .........@......
+00:02:11.412403 0000000007d0f760 13c0: 20 3c 17 08 00 00 00 00-52 fe 98 1f fa 7f 00 00  <......R.......
+00:02:11.412405 0000000007d0f770 13d0: e0 1d c0 03 00 00 00 00-a0 40 13 06 00 00 00 00 .........@......
+00:02:11.412407 0000000007d0f780 13e0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412409 0000000007d0f790 13f0: 09 00 00 00 00 00 00 00-02 00 00 00 00 00 00 00 ................
+00:02:11.412411 0000000007d0f7a0 1400: c0 58 f8 05 00 00 00 00-1e 87 ea 20 fa 7f 00 00 .X......... ....
+00:02:11.412413 0000000007d0f7b0 1410: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412415 0000000007d0f7c0 1420: 00 00 00 00 00 00 00 00-c0 1e c0 03 00 00 00 00 ................
+00:02:11.412417 0000000007d0f7d0 1430: ac 09 00 00 00 00 00 00-8c ec 98 1f fa 7f 00 00 ................
+00:02:11.412419 0000000007d0f7e0 1440: 00 00 00 00 00 00 00 00-20 3c 17 08 00 00 00 00 ........ <......
+00:02:11.412421 0000000007d0f7f0 1450: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412423 0000000007d0f800 1460: 20 b5 1c 06 00 00 00 00-2f 81 ea 20 fa 7f 00 00  ......./.. ....
+00:02:11.412425 0000000007d0f810 1470: 20 b5 1c 06 00 00 00 00-ac 09 00 00 00 00 00 00  ...............
+00:02:11.412427 0000000007d0f820 1480: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412429 0000000007d0f830 1490: 20 b5 1c 06 00 00 00 00-82 4e f3 20 fa 7f 00 00  ........N. ....
+00:02:11.412431 0000000007d0f840 14a0: 10 fe 12 06 00 00 00 00-10 fe 12 06 00 00 00 00 ................
+00:02:11.412433 0000000007d0f850 14b0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412435 0000000007d0f860 14c0: 00 00 00 00 00 00 00 00-9f 1d 81 5b 00 00 00 00 ...........[....
+00:02:11.412437 0000000007d0f870 14d0: 10 fe 12 06 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412439 0000000007d0f880 14e0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412441 0000000007d0f890 14f0: 00 00 00 00 00 00 00 00-3b 1e 81 5b 00 00 00 00 ........;..[....
+00:02:11.412443 0000000007d0f8a0 1500: c0 2a 8a 5b 00 00 00 00-10 fe 12 06 00 00 00 00 .*.[............
+00:02:11.412445 0000000007d0f8b0 1510: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412447 0000000007d0f8c0 1520: 00 00 00 00 00 00 00 00-e4 1f 23 63 fa 7f 00 00 ..........#c....
+00:02:11.412449 0000000007d0f8d0 1530: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412451 0000000007d0f8e0 1540: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412453 0000000007d0f8f0 1550: 00 00 00 00 00 00 00 00-61 f0 5c 63 fa 7f 00 00 ........a.\c....
+00:02:11.412455 0000000007d0f900 1560: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412457 0000000007d0f910 1570: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412459 0000000007d0f920 1580: 00 00 00 00 00 00 00 00-10 90 c1 5f fa 7f 00 00 ..........._....
+00:02:11.412461 0000000007d0f930 1590: 80 e5 d0 07 00 00 00 00-80 e5 d0 07 00 00 00 00 ................
+00:02:11.412463 0000000007d0f940 15a0: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412466 **************** ****  <ditto x 106>
+00:02:11.412467 0000000007d0fff0 1c50: 00 00 00 00 00 00 00 00-00 00 00 00 00 00 00 00 ................
+00:02:11.412562 Thread ID:   00000000000009ac
+00:02:11.412569 Thread name: ShCrOpenGL
+00:02:11.412573 Thread IPRT: 00000000061cb520
+00:02:11.412577 
+00:02:11.412577 Loaded Modules:
+00:02:11.412577 Address range                    [*] Timestamp Path
+00:02:11.412582 00007ff6f5030000..00007ff6f513dfff   5ae2efeb  C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:02:11.412588 00007ffa63560000..00007ffa6373ffff   e508fc03  C:\WINDOWS\SYSTEM32\ntdll.dll
+00:02:11.412593 00007ffa63220000..00007ffa632cdfff   0c2cf900  C:\WINDOWS\System32\KERNEL32.DLL
+00:02:11.412598 00007ffa5fb30000..00007ffa5fd95fff   6369e29f  C:\WINDOWS\System32\KERNELBASE.dll
+00:02:11.412603 00007ffa523b0000..00007ffa523b4fff   5ae2efba  C:\Program Files\Oracle\VirtualBox\VBoxSupLib.DLL
+00:02:11.412608 00007ffa60260000..00007ffa602b7fff   dcc14b24  C:\WINDOWS\System32\Wintrust.dll
+00:02:11.412613 00007ffa62a90000..00007ffa62b2cfff   20688290  C:\WINDOWS\System32\msvcrt.dll
+00:02:11.412618 00007ffa5f920000..00007ffa5f931fff   cfb4ce3b  C:\WINDOWS\System32\MSASN1.dll
+00:02:11.412623 00007ffa5f960000..00007ffa5fb2dfff   02d1080b  C:\WINDOWS\System32\CRYPT32.dll
+00:02:11.412628 00007ffa60160000..00007ffa60255fff   e71e5dfe  C:\WINDOWS\System32\ucrtbase.dll
+00:02:11.412632 00007ffa62d30000..00007ffa62e4efff   d9cb376e  C:\WINDOWS\System32\RPCRT4.dll
+00:02:11.412639 00007ffa62420000..00007ffa624c0fff   7eb2aaf2  C:\WINDOWS\System32\advapi32.dll
+00:02:11.412644 00007ffa61f70000..00007ffa61fcafff   caf94b03  C:\WINDOWS\System32\sechost.dll
+00:02:11.412649 00007ffa5f410000..00007ffa5f434fff   0a84c761  C:\WINDOWS\system32\bcrypt.dll
+00:02:11.412654 00007ffa5fe40000..00007ffa5feb1fff   384d71d2  C:\WINDOWS\System32\bcryptprimitives.dll
+00:02:11.412659 00007ffa5f300000..00007ffa5f316fff   32e5cbdc  C:\WINDOWS\SYSTEM32\CRYPTSP.dll
+00:02:11.412664 00007ffa5ed40000..00007ffa5ed72fff   f0b48762  C:\WINDOWS\system32\rsaenh.dll
+00:02:11.412669 00007ffa5f320000..00007ffa5f32afff   a04d2d94  C:\WINDOWS\SYSTEM32\CRYPTBASE.dll
+00:02:11.412673 00007ffa62ce0000..00007ffa62cfcfff   d42d4094  C:\WINDOWS\System32\imagehlp.dll
+00:02:11.412678 00007ffa5e670000..00007ffa5e691fff   cdd2ce4d  C:\WINDOWS\SYSTEM32\gpapi.dll
+00:02:11.412683 00007ffa5f8b0000..00007ffa5f8cafff   ce335499  C:\WINDOWS\System32\profapi.dll
+00:02:11.412688 00007ffa533b0000..00007ffa533defff   f48917d8  C:\WINDOWS\System32\cryptnet.dll
+00:02:11.412693 00007ffa20e00000..00007ffa2138ffff   5ae2efeb  C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.412698 00007ffa629b0000..00007ffa62a1bfff   9ac9e819  C:\WINDOWS\System32\WS2_32.dll
+00:02:11.412702 000000005b7f0000..000000005b8c1fff   4d5f034a  C:\Program Files\Oracle\VirtualBox\MSVCR100.dll
+00:02:11.412707 000000005b8d0000..000000005b967fff   4d5f035c  C:\Program Files\Oracle\VirtualBox\MSVCP100.dll
+00:02:11.412712 00007ffa203f0000..00007ffa20df5fff   5ae2effa  C:\Program Files\Oracle\VirtualBox\VirtualBox.dll
+00:02:11.412717 00007ffa632d0000..00007ffa6345efff   6c242675  C:\WINDOWS\System32\USER32.dll
+00:02:11.412722 00007ffa60a10000..00007ffa60a2ffff   1900dcc9  C:\WINDOWS\System32\win32u.dll
+00:02:11.412727 00007ffa62d00000..00007ffa62d27fff   d7e6475d  C:\WINDOWS\System32\GDI32.dll
+00:02:11.412732 00007ffa5ff70000..00007ffa60102fff   4ee89f99  C:\WINDOWS\System32\gdi32full.dll
+00:02:11.412736 00007ffa5fda0000..00007ffa5fe3afff   591e7571  C:\WINDOWS\System32\msvcp_win.dll
+00:02:11.412741 00007ffa60b30000..00007ffa61f65fff   0d81d886  C:\WINDOWS\System32\SHELL32.dll
+00:02:11.412746 00007ffa60110000..00007ffa60159fff   a7a2bb4e  C:\WINDOWS\System32\cfgmgr32.dll
+00:02:11.412751 00007ffa63170000..00007ffa63215fff   6c07e48f  C:\WINDOWS\System32\shcore.dll
+00:02:11.412756 00007ffa62e60000..00007ffa63167fff   3db461b4  C:\WINDOWS\System32\combase.dll
+00:02:11.412761 00007ffa602c0000..00007ffa60a06fff   aa4d43b0  C:\WINDOWS\System32\windows.storage.dll
+00:02:11.412766 00007ffa62a20000..00007ffa62a70fff   2303fb66  C:\WINDOWS\System32\shlwapi.dll
+00:02:11.412771 00007ffa5f940000..00007ffa5f950fff   d758e164  C:\WINDOWS\System32\kernel.appcore.dll
+00:02:11.412776 00007ffa5f8d0000..00007ffa5f91bfff   883ace6c  C:\WINDOWS\System32\powrprof.dll
+00:02:11.412782 00007ffa62b30000..00007ffa62c78fff   e56d382d  C:\WINDOWS\System32\ole32.dll
+00:02:11.412787 00007ffa63460000..00007ffa63524fff   da658619  C:\WINDOWS\System32\OLEAUT32.dll
+00:02:11.412792 00007ffa3e1b0000..00007ffa3e2cdfff   799f13ca  C:\WINDOWS\SYSTEM32\OPENGL32.dll
+00:02:11.412796 000000005b280000..000000005b7e4fff   58e2613b  C:\Program Files\Oracle\VirtualBox\Qt5CoreVBox.dll
+00:02:11.412801 00007ffa1fdf0000..00007ffa203e6fff   58e261e1  C:\Program Files\Oracle\VirtualBox\Qt5GuiVBox.dll
+00:02:11.412806 000000005ad10000..000000005b270fff   58e2628d  C:\Program Files\Oracle\VirtualBox\Qt5WidgetsVBox.dll
+00:02:11.412811 00007ffa3a4a0000..00007ffa3a4f0fff   58e262f5  C:\Program Files\Oracle\VirtualBox\Qt5PrintSupportVBox.dll
+00:02:11.412816 00007ffa62170000..00007ffa62279fff   f7d4a12d  C:\WINDOWS\System32\COMDLG32.dll
+00:02:11.412821 000000005acb0000..000000005ad03fff   58e262df  C:\Program Files\Oracle\VirtualBox\Qt5OpenGLVBox.dll
+00:02:11.412826 00007ffa5ba70000..00007ffa5ba92fff   711180df  C:\WINDOWS\SYSTEM32\WINMM.dll
+00:02:11.412830 00007ffa3df10000..00007ffa3df3bfff   7e700fbd  C:\WINDOWS\SYSTEM32\GLU32.dll
+00:02:11.412836 00007ffa477e0000..00007ffa477fafff   0585e610  C:\WINDOWS\SYSTEM32\MPR.dll
+00:02:11.412842 00007ffa536a0000..00007ffa53725fff   ef7550c0  C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+00:02:11.412847 00007ffa46b50000..00007ffa46bf5fff   b024530b  C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.16299.371_none_887d866e4ab76531\COMCTL32.dll
+00:02:11.412853 00007ffa5ba40000..00007ffa5ba69fff   61131a6d  C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+00:02:11.412858 00007ffa5eed0000..00007ffa5ef08fff   097e71dc  C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+00:02:11.412863 00007ffa61fd0000..00007ffa61ffcfff   36b05a53  C:\WINDOWS\System32\IMM32.DLL
+00:02:11.412868 00007ffa2be00000..00007ffa2bf2dfff   58e2632b  C:\Program Files\Oracle\VirtualBox\platforms\qwindows.dll
+00:02:11.412873 00007ffa5d510000..00007ffa5d5a4fff   384015f0  C:\WINDOWS\system32\uxtheme.dll
+00:02:11.412878 00007ffa5db40000..00007ffa5db69fff   e80a1430  C:\WINDOWS\system32\dwmapi.dll
+00:02:11.412883 00007ffa5f7e0000..00007ffa5f808fff   d1cdc557  C:\WINDOWS\system32\userenv.dll
+00:02:11.412888 00007ffa60a90000..00007ffa60b2dfff   2c498fd1  C:\WINDOWS\System32\clbcatq.dll
+00:02:11.412892 00007ffa1f8a0000..00007ffa1fde5fff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.412897 00007ffa322a0000..00007ffa32359fff   5ae2eff0  C:\Program Files\Oracle\VirtualBox\VBoxProxyStub.dll
+00:02:11.412902 00007ffa5a000000..00007ffa5a00dfff   5ae2ebc1  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxPuelMainVM.DLL
+00:02:11.412909 00007ffa62000000..00007ffa62166fff   9be5ad6b  C:\WINDOWS\System32\MSCTF.dll
+00:02:11.412913 00007ffa3a140000..00007ffa3a18efff   9b888435  C:\WINDOWS\system32\dataexchange.dll
+00:02:11.412918 00007ffa5c520000..00007ffa5c801fff   91f7d981  C:\WINDOWS\system32\d3d11.dll
+00:02:11.412923 00007ffa5ceb0000..00007ffa5cff1fff   c19e4649  C:\WINDOWS\system32\dcomp.dll
+00:02:11.412928 00007ffa5e6c0000..00007ffa5e76efff   c29ffbca  C:\WINDOWS\system32\dxgi.dll
+00:02:11.412933 00007ffa5dcc0000..00007ffa5de3afff   63553d36  C:\WINDOWS\system32\twinapi.appcore.dll
+00:02:11.412938 00007ffa5dc30000..00007ffa5dc4ffff   61634a77  C:\WINDOWS\system32\RMCLIENT.dll
+00:02:11.412942 00007ffa43390000..00007ffa43427fff   edb02bb1  C:\WINDOWS\System32\TextInputFramework.dll
+00:02:11.412947 00007ffa5a2d0000..00007ffa5a5bdfff   35d247d6  C:\WINDOWS\System32\CoreUIComponents.dll
+00:02:11.412952 00007ffa5c810000..00007ffa5c8ebfff   b118629d  C:\WINDOWS\System32\CoreMessaging.dll
+00:02:11.412957 00007ffa5e9e0000..00007ffa5ea10fff   66e0a464  C:\WINDOWS\SYSTEM32\ntmarta.dll
+00:02:11.412962 00007ffa5b1b0000..00007ffa5b2e5fff   15fa2472  C:\WINDOWS\SYSTEM32\wintypes.dll
+00:02:11.412967 00007ffa499f0000..00007ffa499fefff   2d600235  C:\WINDOWS\system32\wbem\wbemprox.dll
+00:02:11.412972 00007ffa4ed30000..00007ffa4edb0fff   e602587c  C:\WINDOWS\SYSTEM32\wbemcomn.dll
+00:02:11.412977 00007ffa49000000..00007ffa49013fff   58e5a8fa  C:\WINDOWS\system32\wbem\wbemsvc.dll
+00:02:11.412982 00007ffa49850000..00007ffa4993ffff   9d854283  C:\WINDOWS\system32\wbem\fastprox.dll
+00:02:11.412986 00007ffa1d0f0000..00007ffa1d3b8fff   5ae2eff0  C:\Program Files\Oracle\VirtualBox\VBoxVMM.DLL
+00:02:11.412991 0000000059070000..000000005917afff   5ae2effc  C:\Program Files\Oracle\VirtualBox\VBoxREM.dll
+00:02:11.412996 00007ffa59070000..00007ffa5907afff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxSharedClipboard.DLL
+00:02:11.413002 00007ffa53310000..00007ffa5331cfff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxDragAndDropSvc.DLL
+00:02:11.413007 00007ffa2b190000..00007ffa2b29ffff   5ae2eff8  C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413012 00007ffa2d8c0000..00007ffa2d8eefff   5ae2eff0  C:\Program Files\Oracle\VirtualBox\VBoxOGLhostcrutil.dll
+00:02:11.413017 00007ffa2cf20000..00007ffa2cf45fff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxOGLrenderspu.dll
+00:02:11.413022 00007ffa2d030000..00007ffa2d049fff   5ae2eff7  C:\Program Files\Oracle\VirtualBox\VBoxOGLhosterrorspu.dll
+00:02:11.413029 00007ffa1c210000..00007ffa1d0e8fff*  5976a144  C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_f507e86e308a4c50\ig9icd64.dll
+00:02:11.413035 00007ffa5b150000..00007ffa5b162fff   d029ef98  C:\WINDOWS\SYSTEM32\WTSAPI32.dll
+00:02:11.413040 00007ffa569a0000..00007ffa57fa1fff   5976a09b  C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_f507e86e308a4c50\igc64.dll
+00:02:11.413046 00007ffa4f770000..00007ffa4f77bfff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxGuestPropSvc.DLL
+00:02:11.413051 00007ffa4a2d0000..00007ffa4a2dafff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxGuestControlSvc.DLL
+00:02:11.413057 00007ffa1b840000..00007ffa1c204fff   5ae2eff8  C:\Program Files\Oracle\VirtualBox\VBoxDD.DLL
+00:02:11.413062 00007ffa62560000..00007ffa629adfff   6e870640  C:\WINDOWS\System32\SETUPAPI.dll
+00:02:11.413066 00007ffa34790000..00007ffa347f2fff   5ae2eff0  C:\Program Files\Oracle\VirtualBox\VBoxDDU.dll
+00:02:11.413071 00007ffa2b570000..00007ffa2b5ccfff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxDD2.dll
+00:02:11.413077 00007ffa2b140000..00007ffa2b180fff   5ae2ebc2  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL
+00:02:11.413083 00007ffa2cf00000..00007ffa2cf1efff   5ae2ebc0  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxEhciR3.DLL
+00:02:11.413089 00007ffa2bde0000..00007ffa2bdf7fff   5ae2ebc1  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxNvmeR3.DLL
+00:02:11.413095 00007ffa2b120000..00007ffa2b137fff   5ae2ebc3  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxUsbCardReaderR3.DLL
+00:02:11.413101 00007ffa2b100000..00007ffa2b118fff   5ae2ebc1  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxUsbWebcamR3.DLL
+00:02:11.413107 00007ffa49e30000..00007ffa49e3cfff   5ae2eff6  C:\Program Files\Oracle\VirtualBox\VBoxSharedFolders.DLL
+00:02:11.413112 00007ffa4f2a0000..00007ffa4f36bfff   5ae2ebc1  C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VDPluginCrypt.DLL
+00:02:11.413118 00007ffa59ca0000..00007ffa59caafff   e9fad6e5  C:\WINDOWS\SYSTEM32\WINNSI.DLL
+00:02:11.413123 00007ffa62e50000..00007ffa62e57fff   99bb6efc  C:\WINDOWS\System32\NSI.dll
+00:02:11.413128 00007ffa59180000..00007ffa59195fff   a114a93a  C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL
+00:02:11.413133 00007ffa59160000..00007ffa59179fff   2fb79b0f  C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL
+00:02:11.413137 00007ffa56570000..00007ffa565defff   11b827f2  C:\WINDOWS\System32\MMDevApi.dll
+00:02:11.413142 00007ffa5f6c0000..00007ffa5f6e6fff   b8e773ec  C:\WINDOWS\System32\DEVOBJ.dll
+00:02:11.413147 00007ffa5d770000..00007ffa5d920fff   2e5aa65c  C:\WINDOWS\System32\PROPSYS.dll
+00:02:11.413152 00007ffa5af50000..00007ffa5afdefff   2ccf947e  C:\WINDOWS\System32\dsound.dll
+00:02:11.413157 00007ffa318e0000..00007ffa31921fff   2cb113d8  C:\WINDOWS\System32\wdmaud.drv
+00:02:11.413161 00007ffa5a8d0000..00007ffa5a8d8fff   d288cc7f  C:\WINDOWS\SYSTEM32\ksuser.dll
+00:02:11.413166 00007ffa5aa90000..00007ffa5aa99fff   c6f2844a  C:\WINDOWS\SYSTEM32\AVRT.dll
+00:02:11.413171 00007ffa49a20000..00007ffa49b41fff   2d2c2860  C:\WINDOWS\System32\AUDIOSES.DLL
+00:02:11.413176 00007ffa3a190000..00007ffa3a19bfff   0ead6235  C:\WINDOWS\System32\msacm32.drv
+00:02:11.413180 00007ffa37b80000..00007ffa37b9bfff   b295b7ea  C:\WINDOWS\SYSTEM32\MSACM32.dll
+00:02:11.413185 00007ffa39fd0000..00007ffa39fd9fff   0e3ba0c0  C:\WINDOWS\System32\midimap.dll
+00:02:11.413190 00007ffa21600000..00007ffa21638fff   560b4e47  C:\Users\BM\Desktop\VirtualKD-3.0\kdclient64.dll
+00:02:11.413195 00007ffa54310000..00007ffa5432ffff   58348fd2  C:\WINDOWS\system32\PrxerDrv.dll
+00:02:11.413200 00007ffa5f140000..00007ffa5f1a5fff   3a7c7ba7  C:\WINDOWS\system32\mswsock.dll
+00:02:11.413205 00007ffa49a00000..00007ffa49a1bfff   58348ffa  C:\WINDOWS\System32\PrxerNsp.dll
+00:02:11.413211 00007ffa3d860000..00007ffa3d966fff   dd10bdfb  C:\Windows\System32\Windows.UI.dll
+00:02:11.413216 
+00:02:11.413217 Potential code addresses on the stack:
+00:02:11.413220 Xcpt PC         : 00007ffa1c729e10 - 0x00519e10 bytes into C:\WINDOWS\System32\DriverStore\FileRepository\igdlh64.inf_amd64_f507e86e308a4c50\ig9icd64.dll
+00:02:11.413229 0000000007d0f4a8: 00007ffa2b1b9adb - 0x00029adb bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413236 0000000007d0f4c0: 00007ffa2b28f990 - 0x000ff990 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413242 0000000007d0f4d0: 00007ffa2b28f990 - 0x000ff990 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413247 0000000007d0f4d8: 00007ffa2b241de7 - 0x000b1de7 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413254 0000000007d0f500: 00007ffa2b28f990 - 0x000ff990 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413259 0000000007d0f508: 00007ffa2b24c824 - 0x000bc824 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413265 0000000007d0f510: 00007ffa2b295220 - 0x00105220 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413270 0000000007d0f518: 00007ffa1f8a0000 - 0x00000000 bytes into C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.413276 0000000007d0f530: 00007ffa2b28f990 - 0x000ff990 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413282 0000000007d0f538: 00007ffa2b245ad2 - 0x000b5ad2 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413288 0000000007d0f548: 000000005b858d94 - 0x00068d94 bytes into C:\Program Files\Oracle\VirtualBox\MSVCR100.dll
+00:02:11.413294 0000000007d0f568: 00007ffa2d8c7d8b - 0x00007d8b bytes into C:\Program Files\Oracle\VirtualBox\VBoxOGLhostcrutil.dll
+00:02:11.413299 0000000007d0f578: 00007ffa20f2606f - 0x0012606f bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413306 0000000007d0f5a8: 00007ffa2b1adcfe - 0x0001dcfe bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413313 0000000007d0f5d0: 00007ffa2b28f990 - 0x000ff990 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413318 0000000007d0f5d8: 00007ffa2d8c9009 - 0x00009009 bytes into C:\Program Files\Oracle\VirtualBox\VBoxOGLhostcrutil.dll
+00:02:11.413324 0000000007d0f5e8: 00007ffa1f8a0000 - 0x00000000 bytes into C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.413329 0000000007d0f608: 00007ffa2b1ade8e - 0x0001de8e bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413336 0000000007d0f648: 00007ffa2b1adf98 - 0x0001df98 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413343 0000000007d0f678: 00007ffa2b194426 - 0x00004426 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413348 0000000007d0f698: 00007ffa20ea77cf - 0x000a77cf bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413353 0000000007d0f6a0: 00007ffa5fb43c2d - 0x00013c2d bytes into C:\WINDOWS\System32\KERNELBASE.dll
+00:02:11.413357 0000000007d0f6a8: 00007ffa20f351ba - 0x001351ba bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413363 0000000007d0f6b8: 00007ffa2b19450e - 0x0000450e bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413368 0000000007d0f6c8: 00007ffa20f340d3 - 0x001340d3 bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413373 0000000007d0f6d8: 00007ffa20f351ba - 0x001351ba bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413378 0000000007d0f6f8: 00007ffa2b191771 - 0x00001771 bytes into C:\Program Files\Oracle\VirtualBox\VBoxSharedCrOpenGL.DLL
+00:02:11.413385 0000000007d0f738: 00007ffa1f98e9bd - 0x000ee9bd bytes into C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.413390 0000000007d0f740: 00007ffa1f8a0000 - 0x00000000 bytes into C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.413398 0000000007d0f768: 00007ffa1f98fe52 - 0x000efe52 bytes into C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.413405 0000000007d0f7a8: 00007ffa20ea871e - 0x000a871e bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413410 0000000007d0f7d8: 00007ffa1f98ec8c - 0x000eec8c bytes into C:\Program Files\Oracle\VirtualBox\VBoxC.dll
+00:02:11.413416 0000000007d0f808: 00007ffa20ea812f - 0x000a812f bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413422 0000000007d0f838: 00007ffa20f34e82 - 0x00134e82 bytes into C:\Program Files\Oracle\VirtualBox\VBoxRT.dll
+00:02:11.413428 0000000007d0f868: 000000005b811d9f - 0x00021d9f bytes into C:\Program Files\Oracle\VirtualBox\MSVCR100.dll
+00:02:11.413433 0000000007d0f898: 000000005b811e3b - 0x00021e3b bytes into C:\Program Files\Oracle\VirtualBox\MSVCR100.dll
+00:02:11.413438 0000000007d0f8a0: 000000005b8a2ac0 - 0x000b2ac0 bytes into C:\Program Files\Oracle\VirtualBox\MSVCR100.dll
+00:02:11.413443 0000000007d0f8c8: 00007ffa63231fe4 - 0x00011fe4 bytes into C:\WINDOWS\System32\KERNEL32.DLL
+00:02:11.413448 0000000007d0f8f8: 00007ffa635cf061 - 0x0006f061 bytes into C:\WINDOWS\SYSTEM32\ntdll.dll
+00:02:11.413452 0000000007d0f928: 00007ffa5fc19010 - 0x000e9010 bytes into C:\WINDOWS\System32\KERNELBASE.dll

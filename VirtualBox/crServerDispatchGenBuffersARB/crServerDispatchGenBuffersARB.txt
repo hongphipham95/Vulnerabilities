@@ -1,0 +1,105 @@
+1.     Vulnerability Title
+    -   Oracle VirtualBox crServerDispatchGenBuffersARB Integer Overflow Privilege Escalation Vulnerability
+2.     High-level overview of the vulnerability and the possible effect of using it
+    -   The specific flaw exists within the crServerDispatchGenBuffersARB method. The issue results from the lack of proper validation of user-supplied data, which can result in an integer overflow before allocating a buffer. An attacker can leverage this vulnerability to write Out-of-bounds a heap buffer which can lead to escalate privileges and execute code under the context of the hypervisor.
+3.     Root Cause Analysis
+    -   Using HGCM Call, we can send an unpack opcode through chromium protocol, then if the unpack opcode is CR_EXTEND_OPCODE and extend opcode is CR_GENBUFFERSARB_EXTEND_OPCODE, the host service will go through following code snippet in VboxOGLgen\unpack.c (this c file will be generated during compiling):
+    
+                    ....
+						case CR_GENBUFFERSARB_EXTEND_OPCODE:
+							crUnpackExtendGenBuffersARB( );
+							break;
+                    ....
+                    
+        Dig into crUnpackExtendGenBuffersARB() function:
+        
+                    ....
+						static void crUnpackExtendGenBuffersARB(void)
+						{
+							GLsizei n = READ_DATA(8, GLsizei);
+							SET_RETURN_PTR(12);
+							SET_WRITEBACK_PTR(20);
+							cr_unpackDispatch.GenBuffersARB(n, NULL);
+						}
+                    ....
+                    
+        Since we can control our buffer (as an argument when process HGCM call), we can put any value to it and fully control the value of "GLsizei n" variable which will be pass to cr_unpackDispatch.GenBuffersARB() as an argument. Go to cr_unpackDispatch.GenBuffersARB function, we can see:
+		
+					....
+						void SERVER_DISPATCH_APIENTRY
+						crServerDispatchGenBuffersARB(GLsizei n, GLuint *buffers)
+						{
+							GLuint *local_buffers = (GLuint *) crAlloc( n * sizeof(*local_buffers) );	<---- Integer overflow occurs here
+							(void) buffers;
+
+							crStateGenBuffersARB(n, local_buffers);										<---- Passing n without multiplication and our allocated buffer
+
+							crServerReturnValue( local_buffers, n * sizeof(*local_buffers) );
+							crFree( local_buffers );
+						}
+					....
+		
+		The issue results from the lack of proper validation of using user-supplied size to allocating a buffer, which will obviously result in an integer overflow when calculate the size by the following expression "n * sizeof(*local_buffers)", with n >= UINT32_MAX / sizeof(*local_buffers). 
+		Goto crStateGenBuffersARB function:
+					
+					....
+						void STATE_APIENTRY crStateGenBuffersARB(GLsizei n, GLuint *buffers)
+						{
+							CRContext *g = GetCurrentContext();
+							crStateGenNames(g, g->shared->buffersTable, n, buffers);				<---- Passing n without multiplication and our allocated buffer
+						}			
+					....
+					
+		Goto crStateGenNames function:
+				
+					....
+						void crStateGenNames(CRContext *g, CRHashTable *table, GLsizei n, GLuint *names)
+						{
+							GLint start;
+
+							FLUSH();
+
+							if (g->current.inBeginEnd)
+							{
+								crStateError(__LINE__, __FILE__, GL_INVALID_OPERATION,
+														 "crStateGenNames called in Begin/End");
+								return;
+							}
+
+							if (n < 0)
+							{
+								crStateError(__LINE__, __FILE__, GL_INVALID_VALUE,
+														 "Negative n passed to crStateGenNames: %d", n);
+								return;
+							}
+
+							start = crHashtableAllocKeys(table, n);
+							if (start)
+							{
+								GLint i;
+								for (i = 0; i < n; i++)											<---- using n without multiplication
+									names[i] = (GLuint) (start + i);							<---- Iterate names, which is our allocated buffer, Out-of-bounds write (heap overwrite) occurs here.
+							}
+							else
+							{
+								crStateError(__LINE__, __FILE__, GL_OUT_OF_MEMORY, "glGenTextures");
+							}
+						}
+					....
+					
+		So when iterating the names buffer (with overflowed size), the program have over-written a bunch of data to the end of the allocated buffer which obviously a heap over-write vulnerability.
+		
+		Run the poc executable, the VM will crash while trying to write to an invalid memory, I have attached the VBox.log file too.
+		
+		Suggested fix: Add validation: if (n >= UINT32_MAX / sizeof(*local_buffers)) to crServerDispatchGenBuffersARB function
+    
+4.     Proof-of-Concept
+    - To trigger the bug:
+        +   Attacker must first obtain the ability to execute low-privileged code on the target guest system.
+        +   GuestAddition must be installed.
+        +   3D acceleration must be enabled.
+    - An executable and it's source code are in the attachments file, run it at any privilege user.
+5.     Software Version
+        -   Host OS: Windows 10 Enterprise 64 bit.
+        -   Guest OS: Windows 7 Ultimate 32 bit.
+        -   VirtualBox 5.2.10 r122406 64 bit.
